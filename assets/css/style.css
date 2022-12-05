@@ -7,6 +7,21 @@
 }
 
 body {
-    font-family:  montserrat, sans-serif;
-    font-weight: 200px;
+    font-family: montserrat, sans-serif;
+    font-weight: 300px;
+    color: #353838;
+}
+
+/*  headings and logo */
+
+h1, h2 {
+    font-family: poiret one, cursive;
+    letter-spacing: 1px;
+    color: #4d4044;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+
 }
