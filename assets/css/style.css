@@ -12,9 +12,10 @@ body {
     color: #353838;
 }
 
-/*  headings and logo */
+/* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: poiret one, cursive;
     letter-spacing: 1px;
     color: #4d4044;
@@ -23,5 +24,22 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    width: 60%;
+}
 
+/* navigation links */
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    width: 40%;
+    align-items: center;
 }
