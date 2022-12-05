@@ -10,6 +10,7 @@ body {
     font-family: montserrat, sans-serif;
     font-weight: 300px;
     color: #353838;
+    max-width: 2000px;
 }
 
 /* headings and logo */
@@ -53,28 +54,22 @@ h2 {
     border-bottom: 1px solid peachpuff;
     border-top: 1px solid peachpuff;
     background-color: rgba(224, 159, 142, 0.1);
-} 
+}
 
 .active {
     background-color: rgba(224, 159, 142, 0.1);
 }
 
-#logo, #menu {
+#logo,
+#menu {
     line-height: 75px;
 }
-//
-/* nav bar styling; idea from https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
-.zoom {
-    padding: 50px;
-    background-color: green;
-    transition: transform .2s; /* Animation */
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-  }
-  
-  .zoom:hover {
-    transform: scale(1.5);
-  }
-//
 
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpeg') no-repeat center top; 
+    max-width: 2000px;
+}
