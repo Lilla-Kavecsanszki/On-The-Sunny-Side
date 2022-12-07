@@ -219,3 +219,24 @@ h2 {
     }
   }
   */
+
+  /* footer */
+
+  footer {
+    height: 150px;
+  }
+
+  .social-networks {
+    text-align: center;
+  }
+
+  .social-networks > li {
+    display: inline;
+  }
+
+  .social-networks em {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #4d4044;
+  }
