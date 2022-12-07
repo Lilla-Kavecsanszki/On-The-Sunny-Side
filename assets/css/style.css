@@ -74,3 +74,31 @@ h2 {
     background-size: cover;
     max-width: 2000px;
 }
+
+/* cover text on front page */
+
+#cover-text, #cover-text h2{
+    color: #4d4044;
+    text-shadow: #353838;
+    font-family: poiret one, cursive;
+}
+
+
+
+#cover-text{
+    font-size: 110%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    
+    background-color: rgba(255, 218, 185, 0.5);
+    width: 400px;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 10px;
+
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    border-radius: 50%;
+}
