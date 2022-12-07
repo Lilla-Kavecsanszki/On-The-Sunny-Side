@@ -81,18 +81,19 @@ h2 {
     position: relative;
 }
 
-#cover-text,
 #cover-text h2 {
     color: #4d4044;
     text-shadow: #353838;
     font-family: poiret one, cursive;
 }
 
+/*
 #cover-text-outer {
     width: 400px;
     height: 100%;
     overflow: hidden;
 }
+*/
 
 #cover-text {
     font-size: 110%;
@@ -126,4 +127,26 @@ h2 {
     to {
         transform: scale(1.1);
     }
+}
+
+/* about us, our aim */
+
+#our-passion {
+    height: 300px;
+    padding-top: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+
+#our-passion h1 {
+    color: #4d4044;
+    text-shadow: #353838;
+    font-family: poiret one, cursive;
+    font-size: 300%;
+    letter-spacing: 2px;
+}
+
+#our-passion p {
+    padding: 40px 90px;
 }
