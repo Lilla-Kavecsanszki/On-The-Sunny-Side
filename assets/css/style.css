@@ -70,27 +70,33 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpeg') no-repeat center center; 
+    background: url('../images/hero-image.jpeg') no-repeat center center;
     background-size: cover;
     max-width: 2000px;
+    position: relative;
 }
 
 /* cover text on front page */
 
-#cover-text, #cover-text h2{
+#cover-text,
+#cover-text h2 {
     color: #4d4044;
     text-shadow: #353838;
     font-family: poiret one, cursive;
 }
 
+#cover-text-outer {
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+}
 
-
-#cover-text{
+#cover-text {
     font-size: 110%;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
-    
+
     background-color: rgba(255, 218, 185, 0.5);
     width: 400px;
     height: 100px;
@@ -101,4 +107,20 @@ h2 {
     top: 150px;
     right: 150px;
     border-radius: 50%;
+
+    /* animation zoom effect on loading the page */
+    animation-name: cover-text-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* zoom effect for cover-text */
+@keyframes cover-text-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
