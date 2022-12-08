@@ -277,22 +277,49 @@ footer {
     color: #4d4044;
 }
 
+/* style destination galleries */
+
+.photos {
+    column-count: 3;
+    line-height: 0;
+    column-gap: 0;
+}
+
+.photos > div {
+    width: 100%;
+}
+
 /* style zoom and scroll effect to destination galleries; idea from; 
 https://stackoverflow.com/questions/43662940/how-to-zoom-and-scroll-an-image-using-css-and-html */
 
-.zoom-img {
+.zoom-img-horizontal {
     width: 500px;
-    height: 500px;
+    height: 300px;
     overflow: scroll;
   }
   
-  .zoom-img img {
+  .zoom-img-horizontal img {
     width: 100%;
     transition: width 0.25s ease;
   }
   
-  .zoom-img img:hover {
-    width: 1000px;
+  .zoom-img-horizontal img:hover {
+    width: 700px;
+  }
+  
+  .zoom-img-vertical {
+    width: 300px;
+    height: 500px;
+    overflow: scroll;
+  }
+  
+  .zoom-img-vertical img {
+    width: 100%;
+    transition: width 0.25s ease;
+  }
+  
+  .zoom-img-vertical img:hover {
+    width: 700px;
   }
   
   
