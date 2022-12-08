@@ -276,3 +276,23 @@ footer {
     padding: 5%;
     color: #4d4044;
 }
+
+/* style zoom and scroll effect to destination galleries; idea from; 
+https://stackoverflow.com/questions/43662940/how-to-zoom-and-scroll-an-image-using-css-and-html */
+
+.zoom-img {
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+  }
+  
+  .zoom-img img {
+    width: 100%;
+    transition: width 0.25s ease;
+  }
+  
+  .zoom-img img:hover {
+    width: 1000px;
+  }
+  
+  
