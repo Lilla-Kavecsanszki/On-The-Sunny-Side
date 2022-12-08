@@ -36,7 +36,7 @@ h2 {
 }
 
 #menu {
-    font-size: 120%;
+    font-size: 20px;
     letter-spacing: 1px;
     justify-content: space-between;
     display: flex;
@@ -72,7 +72,7 @@ h2 {
     border-bottom: 1px solid peachpuff;
     border-top: 1px solid peachpuff;
     color: white;
-    padding: 10px;
+    padding: 1px;
     font-size: 20px;
     border: none;
     cursor: pointer;
@@ -88,8 +88,9 @@ h2 {
     position: absolute;
     background-color: white;
     text-align: center;
-    min-width: 155px;
+    min-width: 135px;
     z-index: 1;
+    padding: 1px;
 }
 
 .dropdown-content a {
@@ -260,14 +261,20 @@ h2 {
 
 footer {
     height: 150px;
+    
 }
 
 .social-networks {
     text-align: center;
 }
 
+.social-networks a {
+    text-decoration: none;
+}
+
 .social-networks>li {
     display: inline;
+    
 }
 
 .social-networks em {
@@ -275,6 +282,7 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #4d4044;
+    
 }
 
 /* style destination galleries */
@@ -284,6 +292,7 @@ footer {
     line-height: 0;
     column-gap: 0;
 }
+
 
 .photos > div {
     width: 100%;
@@ -296,7 +305,9 @@ https://stackoverflow.com/questions/43662940/how-to-zoom-and-scroll-an-image-usi
     width: 500px;
     height: 300px;
     overflow: scroll;
-  }
+    object-position: center center;
+}
+  
   
   .zoom-img-horizontal img {
     width: 100%;
@@ -311,7 +322,9 @@ https://stackoverflow.com/questions/43662940/how-to-zoom-and-scroll-an-image-usi
     width: 300px;
     height: 500px;
     overflow: scroll;
-  }
+    object-position: center center;
+}
+  
   
   .zoom-img-vertical img {
     width: 100%;
