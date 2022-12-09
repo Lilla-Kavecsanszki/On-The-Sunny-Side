@@ -418,47 +418,12 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
     }
 }
 
-/*.zoom-img-horizontal {
-    width: 500px;
-    height: 300px;
-    overflow: scroll;
-    object-position: center center;
-}
-  
-  
-  .zoom-img-horizontal img {
-    width: 100%;
-    transition: width 0.25s ease;
-  }
-  
-  .zoom-img-horizontal img:hover {
-    width: 700px;
-  }
-  
-  .zoom-img-vertical {
-    width: 300px;
-    height: 500px;
-    overflow: scroll;
-    object-position: center center;
-}
-  
-  
-  .zoom-img-vertical img {
-    width: 100%;
-    transition: width 0.25s ease;
-  }
-  
-  .zoom-img-vertical img:hover {
-    width: 700px;
-  }
-  
-  */
+
 
 /* Destination pages layout design */
 
 #destination-top {
     height: 600px;
-    
 }
 
 #left-side {
@@ -467,7 +432,6 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
     display: grid;
     place-items: center;
     padding-top: 205px;
-
 }
 
 #right-side {
@@ -483,6 +447,9 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 #bottom-left {
     width: 60%;
     float: left;
+    width: 100%;
+    height: 600px;
+    overflow: scroll;
 }
 
 #bottom-right {
