@@ -261,11 +261,13 @@ h2 {
 
 footer {
     height: 150px;
+    background-color: peachpuff;
 
 }
 
 .social-networks {
     text-align: center;
+    background-color: peachpuff;
 }
 
 .social-networks a {
@@ -424,6 +426,7 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 
 #destination-top {
     height: 600px;
+    background-color: peachpuff;
 }
 
 #left-side {
@@ -442,6 +445,7 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 
 #destination-bottom {
     height: 800px;
+    background-color: peachpuff;
 }
 
 #bottom-left {
