@@ -333,7 +333,7 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 .slide img {
     width: 280px;
     height: 175px;
-    border: 3px inset rgb(255,218,185);
+    border: 3px inset rgb(255, 218, 185);
     /* border-radius: 100%; */
     box-shadow: 0 0 15px 3px rgb(255 218 185);
 }
@@ -454,35 +454,38 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
   
   */
 
-  /* Destination pages layout design */
+/* Destination pages layout design */
 
-  #destination-top {
+#destination-top {
     height: 600px;
-    padding-top: 100px;
-  }
+    
+}
 
-  #left-side {
+#left-side {
     width: 20%;
     float: left;
     display: grid;
     place-items: center;
-    padding-top: 105px;
-    
-  }
+    padding-top: 205px;
 
-  #right-side {
+}
+
+#right-side {
     width: 80%;
     float: right;
-  }
+    padding-top: 100px;
+}
 
-  #destination-bottom {
+#destination-bottom {
     height: 600px;
-  }
+}
 
-  #bottom-left {
+#bottom-left {
+    width: 60%;
+    float: left;
+}
 
-  }
-
-  #bottom-right {
-    
-  }
+#bottom-right {
+    width: 40%;
+    float: right;
+}
