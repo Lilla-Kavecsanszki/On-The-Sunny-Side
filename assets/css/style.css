@@ -285,8 +285,8 @@ footer {
 
 }
 
-/* style destination galleries */
-
+/* style destination galleries - can delete this one */
+/*
 .photos {
     column-count: 3;
     line-height: 0;
@@ -297,7 +297,7 @@ footer {
 .photos>div {
     width: 100%;
 }
-
+ * /
 /* style zoom and scroll effect to destination galleries; idea from; 
 https://stackoverflow.com/questions/43662940/how-to-zoom-and-scroll-an-image-using-css-and-html */
 
@@ -307,7 +307,7 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 .carousel_wrapper {
     position: relative;
     width: 320px;
-    margin: 100px auto 0 auto;
+    margin: 0 auto 0 auto;
     perspective: 1000px;
 }
 
@@ -453,3 +453,36 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
   }
   
   */
+
+  /* Destination pages layout design */
+
+  #destination-top {
+    height: 600px;
+    padding-top: 100px;
+  }
+
+  #left-side {
+    width: 20%;
+    float: left;
+    display: grid;
+    place-items: center;
+    padding-top: 105px;
+    
+  }
+
+  #right-side {
+    width: 80%;
+    float: right;
+  }
+
+  #destination-bottom {
+    height: 600px;
+  }
+
+  #bottom-left {
+
+  }
+
+  #bottom-right {
+    
+  }
