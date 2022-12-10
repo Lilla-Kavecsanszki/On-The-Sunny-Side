@@ -189,7 +189,7 @@ h2 {
     padding-top: 40px;
 }
 
-/* shell star image above waves */
+/* shell star image above waves - NEED TO FIX THIS! */
 
 #shell-star-image {
     height: 600px;
@@ -257,51 +257,7 @@ h2 {
   }
   */
 
-/* footer */
-
-footer {
-    height: 150px;
-    background-color: peachpuff;
-
-}
-
-.social-networks {
-    text-align: center;
-    background-color: peachpuff;
-}
-
-.social-networks a {
-    text-decoration: none;
-}
-
-.social-networks>li {
-    display: inline;
-
-}
-
-.social-networks em {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #4d4044;
-
-}
-
-/* style destination galleries - can delete this one */
-/*
-.photos {
-    column-count: 3;
-    line-height: 0;
-    column-gap: 0;
-}
-
-
-.photos>div {
-    width: 100%;
-}
- * /
-/* style zoom and scroll effect to destination galleries; idea from; 
-https://stackoverflow.com/questions/43662940/how-to-zoom-and-scroll-an-image-using-css-and-html */
+/* style destination galleries */
 
 /*  style carousel to destination galleries; idea from https://freehtmldesigns.com/css-carousels/ 
 https://codepen.io/blueacornfed/pen/qdRddr  */
@@ -420,8 +376,6 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
     }
 }
 
-
-
 /* Destination pages layout design */
 
 #destination-top {
@@ -539,6 +493,50 @@ legend {
     height: 15px;
     margin: 5px 0 15px;
     accent-color: peachpuff;
+}
+
+/* Footer */
+
+footer {
+    background-color: peachpuff;
+}
+
+footer h3 {
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #353838;
+    letter-spacing: 3px;
+}
+
+.social-networks {
+    height: 50px;
+    text-align: center;
+    background-color: peachpuff;
+}
+
+.social-networks a {
+    text-decoration: none;
+}
+
+.social-networks>li {
+    display: inline;
+
+}
+
+.social-networks em {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #4d4044;
+}
+
+footer p {
+    height: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 2px;
 }
 
 /* Media queries */
