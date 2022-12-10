@@ -475,6 +475,72 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
     font-size: 110%;
 }
 
+/* Enquire Form */
+
+.form-section {
+    height: 900px;
+    background: url('../images/hero-image.jpeg') no-repeat center center;
+    background-size: cover;
+    clear: left;
+}
+
+.signup-form {
+    margin: 100px 0% 0 0;
+    color: #fff;
+    background-color: rgba(53, 56, 56, 0.6);
+    max-width: 500px;
+    position: absolute;
+    left: 55%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: peachpuff;
+    margin-bottom: 20px;
+}
+
+.enquire-button {
+    font-size: 100%;
+    color: peachpuff;
+    display: block;
+    text-align: center;
+    background-color: #4d4044;
+    border-radius: 20px;
+    padding: 10px 27px;
+}
+
+.enquire-button:hover {
+    background-color: peachpuff;
+    color: #4d4044; 
+    font-weight: bolder;
+}
+
+.text-input {
+    background: transparent;
+    color: peachpuff;
+    width: 30%;
+    height: 25px;
+    margin: 5px 0 15px;
+    border: 1px solid peachpuff;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: whitesmoke;
+}
+
+legend {
+    height: 25px;
+    margin-bottom: 1px;
+    font-style: italic ;
+}
+
+.radio-button {
+    height: 15px;
+    margin: 5px 0 15px;
+    accent-color: peachpuff;
+}
+
 /* Media queries */
 
 /* for larger to medium screens size from 1200px wide and down */

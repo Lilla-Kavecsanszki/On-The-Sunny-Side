@@ -41,56 +41,59 @@
         </nav>
     </header>
     <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/">
-            <h2>What is your dream sunny holiday?</h2>
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>What is your dream sunny holiday? <i class="fa-solid fa-sun"></i></h2>
             <fieldset>
                 <legend>Personal Details</legend>
                 <label for="fname">First Name</label>
-                <input id="fname" type="text" name="first_name" required>
-                
+                <input class="text-input" id="fname" type="text" name="first_name" required>
+
                 <label for="lname">Last Name</label>
-                <input id="lname" type="text" name="last_name" required>
-                
+                <input class="text-input" id="lname" type="text" name="last_name" required>
+
             </fieldset>
+            <br>
             <fieldset>
                 <legend>Contact Details</legend>
                 <label for="email">Email Address</label>
-                <input id="email" type="email" name="email_address" required>
-                
+                <input class="text-input" id="email" type="email" name="email_address" required>
+
             </fieldset>
+            <br>
             <fieldset>
                 <legend>Details of your holiday</legend>
                 <label for="chosen-destination">Where are you planning to travel?</label>
-                <input type="text" id="chosen-destination" list="destinations" name="chosen-destination" required>
+                <input class="text-input" type="text" id="chosen-destination" list="destinations" name="chosen-destination" required>
                 <datalist id="destinations">
-                    <option value="Morocco"></option>
-                    <option value="Barbados"></option>
-                    <option value="Dubai"></option>
+                    <option class="text-input" value="Morocco"></option>
+                    <option class="text-input" value="Barbados"></option>
+                    <option class="text-input" value="Dubai"></option>
                 </datalist>
-
+                <br>
                 <label for="one">One Week</label>
-                <input id="one" type="radio" name="holiday_length" value="one" required>
+                <input class="radio-button" id="one" type="radio" name="holiday_length" value="one" required>
                 <label for="two">Two Weeks</label>
-                <input id="two" type="radio" name="holiday_length" value="two" required>
-
+                <input class="radio-button" id="two" type="radio" name="holiday_length" value="two" required>
+                <br>
                 <label for="start">Starting date</label>
-                <input id="start" type="date" name="starting_date" required>
-
+                <input class="text-input" id="start" type="date" name="starting_date" required>
+                <br>
                 <label for="postdata">Your wishlist</label>
-                <input name="postdata" type="text" required>
-                
+                <input class="text-input" name="postdata" type="text" required>
+
             </fieldset>
+            <br>
             <fieldset>
                 <legend>Group info</legend>
                 <label for="adult">Number of Adults</label>
-                <input id="adult" type="number" name="how_many" required>
-
+                <input class="text-input" id="adult" type="number" name="how_many" required>
+<br>
                 <label for="children">Number of Children</label>
-                <input id="children" type="number" name="how_many" required>
+                <input class="text-input" id="children" type="number" name="how_many" required>
             </fieldset>
 
             <label for="submit"></label>
-            <input id="submit" type="submit" value="Let me know!" required>
+            <input id="submit" type="submit" value="Let me know!" class="enquire-button" required>
         </form>
     </section>
     <footer class="ocean">
