@@ -28,11 +28,6 @@ h2 {
     margin-left: 20px;
 }
 
-/* add animation to page title h1 idea from; 
-https://webdevtrick.com/pure-css-shimmer-text-effect/#:~:text=Basically%2C%20there%20is%20a%20simple%20text%20and%20a,Pure%20CSS%20Shimmer%20Text%20Effect%20With%20Loop%20Moving.
-*/
-
-
 /* navigation links */
 #main-container {
     display: flex;
@@ -478,4 +473,17 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 
 #bottom-right p {
     font-size: 110%;
+}
+
+/* Media queries */
+
+/* for larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 }
