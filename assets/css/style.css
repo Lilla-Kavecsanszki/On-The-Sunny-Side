@@ -118,6 +118,9 @@ header {
     width: 100%;
     background: url('../images/hero-image-1.jpeg') no-repeat center center;
     background-size: cover;
+}
+
+#outer-section {
     padding-top: 75px;
 }
 
@@ -363,10 +366,6 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 }
 
 .slide.nine {
-    transform: rotateY(320deg) translateZ(412px);
-}
-
-.slide.ten {
     transform: rotateY(320deg) translateZ(412px);
 }
 
