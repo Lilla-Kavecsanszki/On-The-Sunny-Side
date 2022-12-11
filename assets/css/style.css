@@ -45,6 +45,15 @@ h2 {
     align-items: center;
 }
 
+header {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+    line-height: 75px;
+    background-color: rgba(255, 255, 2555, 0.9)
+}
+
 #menu a {
     text-decoration: none;
     color: #4d4044
@@ -109,13 +118,14 @@ h2 {
     width: 100%;
     background: url('../images/hero-image-1.jpeg') no-repeat center center;
     background-size: cover;
-    max-width: 2000px;
+    padding-top: 75px;
 }
 
 /* cover text on front page */
 
 #outer {
     position: relative;
+    padding-top: 75px;
 }
 
 #cover-text h2 {
@@ -417,7 +427,8 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
     text-align: center;
 }
 
-#bottom-right h2, #bottom-right p {
+#bottom-right h2,
+#bottom-right p {
     padding: 0 30px
 }
 
@@ -465,7 +476,7 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 
 .enquire-button:hover {
     background-color: peachpuff;
-    color: #4d4044; 
+    color: #4d4044;
     font-weight: bolder;
 }
 
@@ -486,7 +497,7 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 legend {
     height: 25px;
     margin-bottom: 1px;
-    font-style: italic ;
+    font-style: italic;
 }
 
 .radio-button {
