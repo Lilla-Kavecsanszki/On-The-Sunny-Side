@@ -520,10 +520,23 @@ footer h3 {
     letter-spacing: 3px;
 }
 
+#contact-info {
+    padding-bottom: 1%;
+}
+
+#claims {
+    padding-bottom: 1%;
+}
+
 .social-networks {
     height: 50px;
     text-align: center;
     background-color: peachpuff;
+}
+
+#footer-content {
+    background-color: peachpuff;
+    padding-bottom: 1%;
 }
 
 .social-networks a {
@@ -538,7 +551,8 @@ footer h3 {
 .social-networks em {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     color: #4d4044;
 }
 
