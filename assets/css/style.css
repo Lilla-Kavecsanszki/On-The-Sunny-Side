@@ -651,3 +651,73 @@ footer p {
         margin-top: 50px;
     }
 }
+
+/* screens size from 500px wide and down */
+@media screen and (max-width: 500px) {
+    #menu {
+        clear: left;
+        width: auto;
+    }
+
+    #logo {
+        font-size: 150%;
+    }
+
+    #logo,
+    #menu {
+        line-height: 55px;
+
+        #hero-image {
+            position: relative;
+        }
+
+        #cover-text {
+            left: 0;
+            position: absolute;
+        }
+
+        #our-passion {
+            height: auto;
+            padding: 20px 70px;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        #our-passion h1 {
+            font-size: 200%;
+            padding-top: 20px;
+        }
+
+        #our-passion p {
+            padding: 20px 0;
+        }
+
+        .live {
+            background-color: peachpuff;
+            height: 300px;
+            width: 100%;
+        }
+
+        .signup-form {
+            right: 0%;
+            padding: 5%;
+        }
+
+        #bottom-right {
+            width: 100%;
+        }
+
+        #bottom-left {
+            width: 100%;
+        }
+
+        #left-side {
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        #right-side {
+            width: 100%;
+            margin-top: 50px;
+        }
+    }
