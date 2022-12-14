@@ -521,22 +521,22 @@ footer h3 {
 }
 
 #contact-info {
-    padding-bottom: 1%;
+    padding: 2% 0;
 }
 
 #claims {
-    padding-bottom: 1%;
+    padding-bottom: 2%;
 }
 
 .social-networks {
     height: 50px;
     text-align: center;
     background-color: peachpuff;
+    padding: 1% 0;
 }
 
 #footer-content {
     background-color: peachpuff;
-    padding-bottom: 1%;
 }
 
 .social-networks a {
@@ -576,4 +576,26 @@ footer p {
     #logo {
         font-size: 200%;
     }
+
+    #cover-text {
+        left: 0%;
+    }
+
+    #our-passion {
+        height: auto;
+        padding: 20px 70px;
+        text-align: center;
+        letter-spacing: 2px;
+
+    }
+
+    #our-passion h1 {
+        font-size: 200%;
+        padding-top: 20px;
+    }
+
+    #our-passion p {
+        padding: 20px 0;
+    }
+    
 }
