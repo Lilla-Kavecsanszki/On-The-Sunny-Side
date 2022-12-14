@@ -127,7 +127,7 @@ header {
 
 /* cover text on front page */
 
-#outer {
+#hero-image {
     position: relative;
     padding-top: 75px;
 }
@@ -201,6 +201,9 @@ header {
 
 #our-passion p {
     padding-top: 40px;
+    font-weight: bold;
+    text-shadow: black;
+    font-size: 110%;
 }
 
 /* shell star image above waves - NEED TO FIX THIS! */
@@ -417,10 +420,11 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 #bottom-left {
     width: 50%;
     float: left;
-    height: 800px;
+    height: auto;
     text-align: center;
     overflow: hidden;
 }
+
 #bottom-left img {
     padding-left: 20px;
     padding-right: 20px;
@@ -428,7 +432,7 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 
 #bottom-right {
     width: 50%;
-    height: 800px;
+    height: auto;
     float: right;
     text-align: center;
 }
@@ -566,14 +570,14 @@ footer h3 {
 footer p {
     height: 10px;
     text-align: center;
-    font-weight: bold;
     font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
 }
 
 /* Media queries */
 
-/* for larger to medium screens size from 1136px wide and down */
+/* screens size from 1136px wide and down */
 @media screen and (max-width: 1136px) {
     #menu {
         clear: left;
@@ -583,9 +587,15 @@ footer p {
     #logo {
         font-size: 200%;
     }
+#hero-image {
+    position: relative;
+}
 
     #cover-text {
-        left: 0%;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       margin: -50px 0 0 -100px;
     }
 
     #our-passion {
@@ -610,10 +620,13 @@ footer p {
         padding: 5%;
     }
 
+
     #bottom-right {
         width: 100%;
+        background-color: peachpuff;
         clear: left;
-        padding: 0;
+        padding-bottom: 5%;
+        height: auto;
     }
 
     #bottom-left {
@@ -633,10 +646,25 @@ footer p {
         font-size: 200%;
         padding: 0;
     }
-    
+
     #right-side {
         width: 100%;
         float: left;
         padding: 0;
     }
+    #contact-info {
+        padding: 2% 0;
+    }
+    
+    #claims {
+        padding-bottom: 2%;
+    }
+    
+    .social-networks {
+        height: 50px;
+        text-align: center;
+        background-color: peachpuff;
+        padding: 1% 0;
+    }
+
 }
