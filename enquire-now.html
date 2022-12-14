@@ -41,103 +41,104 @@
         </nav>
     </header>
     <div id="outer-section">
-    <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>What is your dream sunny holiday? <i class="fa-solid fa-sun"></i></h2>
-            <fieldset>
-                <legend>Personal Details</legend>
-                <label for="fname">First Name</label>
-                <input class="text-input" id="fname" type="text" name="first_name" required>
+        <section class="form-section">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <h2>What is your dream sunny holiday? <i class="fa-solid fa-sun"></i></h2>
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <label for="fname">First Name</label>
+                    <input class="text-input" id="fname" type="text" name="first_name" required>
+                    <br>
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" id="lname" type="text" name="last_name" required>
 
-                <label for="lname">Last Name</label>
-                <input class="text-input" id="lname" type="text" name="last_name" required>
-
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend>Contact Details</legend>
-                <label for="email">Email Address</label>
-                <input class="text-input" id="email" type="email" name="email_address" required>
-
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend>Details of your holiday</legend>
-                <label for="chosen-destination">Where are you planning to travel?</label>
-                <input class="text-input" type="text" id="chosen-destination" list="destinations" name="chosen-destination" required>
-                <datalist id="destinations">
-                    <option class="text-input" value="Morocco"></option>
-                    <option class="text-input" value="Barbados"></option>
-                    <option class="text-input" value="Dubai"></option>
-                </datalist>
+                </fieldset>
                 <br>
-                <label for="one">One Week</label>
-                <input class="radio-button" id="one" type="radio" name="holiday_length" value="one" required>
-                <label for="two">Two Weeks</label>
-                <input class="radio-button" id="two" type="radio" name="holiday_length" value="two" required>
-                <br>
-                <label for="start">Starting date</label>
-                <input class="text-input" id="start" type="date" name="starting_date" required>
-                <br>
-                <label for="postdata">Your wishlist</label>
-                <input class="text-input" name="postdata" type="text" required>
+                <fieldset>
+                    <legend>Contact Details</legend>
+                    <label for="email">Email Address</label>
+                    <input class="text-input" id="email" type="email" name="email_address" required>
 
-            </fieldset>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Details of your holiday</legend>
+                    <label for="chosen-destination">Where are you planning to travel?</label>
+                    <input class="text-input" type="text" id="chosen-destination" list="destinations"
+                        name="chosen-destination" required>
+                    <datalist id="destinations">
+                        <option class="text-input" value="Morocco"></option>
+                        <option class="text-input" value="Barbados"></option>
+                        <option class="text-input" value="Dubai"></option>
+                    </datalist>
+                    <br>
+                    <label for="one">One Week</label>
+                    <input class="radio-button" id="one" type="radio" name="holiday_length" value="one" required>
+                    <label for="two">Two Weeks</label>
+                    <input class="radio-button" id="two" type="radio" name="holiday_length" value="two" required>
+                    <br>
+                    <label for="start">Starting date</label>
+                    <input class="text-input" id="start" type="date" name="starting_date" required>
+                    <br>
+                    <label for="postdata">Your wishlist</label>
+                    <input class="text-input" name="postdata" type="text" required>
+
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Group info</legend>
+                    <label for="adult">Number of Adults</label>
+                    <input class="text-input" id="adult" type="number" name="how_many" required>
+                    <br>
+                    <label for="children">Number of Children</label>
+                    <input class="text-input" id="children" type="number" name="how_many" required>
+                </fieldset>
+
+                <label for="submit"></label>
+                <input id="submit" type="submit" value="Let me know!" class="enquire-button" required>
+            </form>
+        </section>
+    </div>
+    <footer class="ocean">
+        <div id="contact-info">
+            <h3>Telephone: +44 7851067137</h3>
+            <h3>Email: info@onthesunnyside.com</h3>
+        </div>
+        <div id="claims">
+            <p>@ 2022 Copyright: Lilla Kavecsanszki all rights reserved</p>
             <br>
-            <fieldset>
-                <legend>Group info</legend>
-                <label for="adult">Number of Adults</label>
-                <input class="text-input" id="adult" type="number" name="how_many" required>
-<br>
-                <label for="children">Number of Children</label>
-                <input class="text-input" id="children" type="number" name="how_many" required>
-            </fieldset>
+            <p>This website is for educational use.</p>
+        </div>
+        <div id="footer-content">
+            <ul class="social-networks">
+                <li>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)">
+                        <em class="fa-brands fa-twitter"></em>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)">
+                        <em class="fa-brands fa-facebook-f"></em>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)">
+                        <em class="fa-brands fa-instagram"></em>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page (opens in a new tab)">
+                        <em class="fa-brands fa-youtube"></em>
+                    </a>
+                </li>
+            </ul>
+        </div>
 
-            <label for="submit"></label>
-            <input id="submit" type="submit" value="Let me know!" class="enquire-button" required>
-        </form>
-    </section>
-</div>
-<footer class="ocean">
-    <div id="contact-info">
-        <h3>Telephone: +44 7851067137</h3>
-        <h3>Email: info@onthesunnyside.com</h3>
-    </div>
-    <div id="claims">
-        <p>@ 2022 Copyright: Lilla Kavecsanszki all rights reserved</p>
-        <br>
-        <p>This website is for educational use.</p>
-    </div>
-    <div id="footer-content">
-        <ul class="social-networks">
-            <li>
-                <a href="https://twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)">
-                    <em class="fa-brands fa-twitter"></em>
-                </a>
-            </li>
-            <li>
-                <a href="https://facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <em class="fa-brands fa-facebook-f"></em>
-                </a>
-            </li>
-            <li>
-                <a href="https://instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <em class="fa-brands fa-instagram"></em>
-                </a>
-            </li>
-            <li>
-                <a href="https://youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube page (opens in a new tab)">
-                    <em class="fa-brands fa-youtube"></em>
-                </a>
-            </li>
-        </ul>
-    </div>
-    
-</footer>
+    </footer>
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/b4a11e6ad7.js" crossorigin="anonymous"></script>

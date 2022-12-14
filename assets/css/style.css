@@ -10,6 +10,7 @@ body {
     font-family: montserrat, sans-serif;
     font-weight: 300px;
     color: #353838;
+    max-width: 2000px;
 }
 
 /* headings and logo */
@@ -410,19 +411,25 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 #destination-bottom {
     height: 800px;
     background-color: peachpuff;
+    position: relative;
 }
 
 #bottom-left {
-    width: 55%;
+    width: 50%;
     float: left;
     height: 800px;
-    overflow: scroll;
+    text-align: center;
+    overflow: hidden;
+}
+#bottom-left img {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #bottom-right {
-    width: 45%;
+    width: 50%;
+    height: 800px;
     float: right;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -597,5 +604,39 @@ footer p {
     #our-passion p {
         padding: 20px 0;
     }
+
+    .signup-form {
+        right: 0%;
+        padding: 5%;
+    }
+
+    #bottom-right {
+        width: 100%;
+        clear: left;
+        padding: 0;
+    }
+
+    #bottom-left {
+        width: 100%;
+        float: left;
+        justify-content: center;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    #left-side {
+        width: 100%;
+        float: left;
+        display: grid;
+        place-items: center;
+        padding-top: 50%;
+        font-size: 200%;
+        padding: 0;
+    }
     
+    #right-side {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 }
