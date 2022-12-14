@@ -164,11 +164,11 @@ header {
 /* zoom effect for cover-text */
 @keyframes cover-text-zoom {
     from {
-        transform: scale(1);
+        transform: scale(.9);
     }
 
     to {
-        transform: scale(1.1);
+        transform: scale(1);
     }
 }
 
@@ -517,15 +517,13 @@ footer p {
         font-size: 200%;
     }
 
-    #hero-image {
-        position: relative;
-    }
+#hero-image{
+    position: relative;
+}
 
     #cover-text {
+        left: 0;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -50px 0 0 -100px;
     }
 
     #our-passion {
@@ -533,7 +531,6 @@ footer p {
         padding: 20px 70px;
         text-align: center;
         letter-spacing: 2px;
-
     }
 
     #our-passion h1 {
