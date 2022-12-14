@@ -317,7 +317,81 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
     to {
         transform: rotateY(0deg);
     }
-}  
+}
+
+/* Fade out Gallery for smaller screend, idea from: https://codepen.io/tianyili/pen/qBEdeoy */
+/*
+.pic-ctn {
+    width: 200vw;
+    height: 100px;
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+  }
+  
+  .pic-ctn > img {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+  img:nth-child(6) {
+    animation-delay: 10s;
+  }
+  img:nth-child(7) {
+    animation-delay: 12s;
+  }
+  img:nth-child(8) {
+    animation-delay: 14s;
+  }
+  img:nth-child(9) {
+    animation-delay: 16s;
+  }
+  img:nth-child(10) {
+    animation-delay: 18s;
+  }
+*/
 
 /* Destination pages layout design */
 
@@ -331,26 +405,27 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 }
 
 #left-side {
-    width: 20%;
-    float: left;
-    display: grid;
-    place-items: center;
-    padding-top: 205px;
+    padding-top: 70px;
+    margin-left: 50px;
     font-size: 200%;
 }
 
 #right-side {
-    width: 80%;
-    float: right;
-    padding-top: 100px;
+    padding: 0;
+}
+
+#left-side,
+#right-side {
+    display: inline-block;
+    width: 36%;
 }
 
 #destination-bottom {
     background-color: peachpuff;
-    position: relative;
 }
 
-#bottom-left, #bottom-right {
+#bottom-left,
+#bottom-right {
     display: inline-block;
     width: 48%;
 }
@@ -521,9 +596,9 @@ footer p {
         font-size: 200%;
     }
 
-#hero-image{
-    position: relative;
-}
+    #hero-image {
+        position: relative;
+    }
 
     #cover-text {
         left: 0;
@@ -553,47 +628,17 @@ footer p {
 
     #bottom-right {
         width: 100%;
-        background-color: peachpuff;
-        clear: left;
-        padding-bottom: 5%;
-        overflow: hidden;
     }
 
     #bottom-left {
         width: 100%;
-        justify-content: center;
-        overflow: hidden;
-        padding: 0;
     }
-   
+
     #left-side {
         width: 100%;
-        float: left;
-        display: grid;
-        place-items: center;
-        padding-top: 50%;
-        font-size: 200%;
-        padding: 0;
     }
 
     #right-side {
         width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #contact-info {
-        padding: 2% 0;
-    }
-
-    #claims {
-        padding-bottom: 2%;
-    }
-
-    .social-networks {
-        height: 50px;
-        text-align: center;
-        background-color: peachpuff;
-        padding: 1% 0;
     }
 }
