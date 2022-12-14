@@ -240,7 +240,6 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
     width: 280px;
     height: 175px;
     border: 3px inset rgb(255, 218, 185);
-    /* border-radius: 100%; */
     box-shadow: 0 0 15px 3px rgb(255 218 185);
 }
 
@@ -318,9 +317,13 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
     to {
         transform: rotateY(0deg);
     }
-}
+}  
 
 /* Destination pages layout design */
+
+#outer-section {
+    background-color: peachpuff;
+}
 
 #destination-top {
     height: 600px;
@@ -343,14 +346,16 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 }
 
 #destination-bottom {
-    height: 800px;
     background-color: peachpuff;
     position: relative;
 }
 
+#bottom-left, #bottom-right {
+    display: inline-block;
+    width: 48%;
+}
+
 #bottom-left {
-    width: 50%;
-    float: left;
     height: auto;
     text-align: center;
     overflow: hidden;
@@ -362,10 +367,9 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 }
 
 #bottom-right {
-    width: 50%;
     height: auto;
-    float: right;
     text-align: center;
+    overflow: hidden;
 }
 
 #bottom-right h2,
@@ -552,17 +556,16 @@ footer p {
         background-color: peachpuff;
         clear: left;
         padding-bottom: 5%;
-        height: auto;
+        overflow: hidden;
     }
 
     #bottom-left {
         width: 100%;
-        float: left;
         justify-content: center;
         overflow: hidden;
         padding: 0;
     }
-
+   
     #left-side {
         width: 100%;
         float: left;
@@ -593,5 +596,4 @@ footer p {
         background-color: peachpuff;
         padding: 1% 0;
     }
-
 }
