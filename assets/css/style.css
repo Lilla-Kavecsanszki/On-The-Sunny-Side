@@ -643,9 +643,11 @@ footer p {
 
     #left-side {
         width: 100%;
+        margin-top: 50px;
     }
 
     #right-side {
         width: 100%;
+        margin-top: 50px;
     }
 }
