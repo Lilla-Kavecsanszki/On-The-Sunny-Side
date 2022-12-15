@@ -669,7 +669,7 @@ footer p {
     }
 
     #menu {
-        font-size: 10px;
+        font-size: 15px;
         letter-spacing: 1px;
         justify-content: space-between;
         display: flex;
@@ -680,7 +680,7 @@ footer p {
     }
 
     .dropbtn {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     header {
@@ -699,11 +699,13 @@ footer p {
 
     #hero-image {
         position: relative;
+        width: auto;
     }
 
     #cover-text {
         left: 0;
         position: absolute;
+        width: fit-content;
     }
 
     #our-passion {
@@ -711,6 +713,7 @@ footer p {
         padding: 20px 70px;
         text-align: center;
         letter-spacing: 2px;
+        width: 100%;
     }
 
     #our-passion h1 {
@@ -722,10 +725,5 @@ footer p {
         padding: 20px 0;
     }
 
-    .live {
-        background-color: peachpuff;
-        height: 200px;
-        width: 100%;
-    }
-}
+   
 }
