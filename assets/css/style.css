@@ -669,7 +669,7 @@ footer p {
     }
 
     #menu {
-        font-size: 15px;
+        font-size: 12px;
         letter-spacing: 1px;
         justify-content: space-between;
         display: flex;
@@ -680,7 +680,7 @@ footer p {
     }
 
     .dropbtn {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     header {
@@ -699,7 +699,6 @@ footer p {
 
     #hero-image {
         position: relative;
-        width: auto;
     }
 
     #cover-text {
@@ -713,7 +712,6 @@ footer p {
         padding: 20px 70px;
         text-align: center;
         letter-spacing: 2px;
-        width: 100%;
     }
 
     #our-passion h1 {
@@ -723,7 +721,55 @@ footer p {
 
     #our-passion p {
         padding: 20px 0;
-    }
+    } 
 
-   
+   /* Footer */
+footer h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #353838;
+    letter-spacing: 2px;
+    height: 12px;
+    padding-bottom: 2%;
+}
+
+#contact-info {
+    height: 50px;
+    padding: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#claims {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 50px;
+}
+
+.social-networks {
+    height: 50px;
+    text-align: center;
+    background-color: peachpuff;
+    padding: 1% 0;
+}
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks em {
+    font-size: 130%;
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #4d4044;
+}
+
+footer p {
+    height: 3px;
+    text-align: center;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 2%;
+}
 }
