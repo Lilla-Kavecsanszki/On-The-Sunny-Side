@@ -667,17 +667,22 @@ footer p {
         justify-content: space-between;
         align-items: center;
     }
-    
+
     #menu {
-        font-size: 15px;
+        font-size: 10px;
         letter-spacing: 1px;
         justify-content: space-between;
         display: flex;
         list-style-type: none;
         width: 100%;
         align-items: center;
+        clear: left;
     }
-    
+
+    .dropbtn {
+        font-size: 10px;
+    }
+
     header {
         position: fixed;
         z-index: 99;
@@ -687,53 +692,40 @@ footer p {
         background-color: rgba(255, 255, 2555, 0.9)
     }
 
-
-
-
-
-
-    #menu {
-        clear: left;
-        width: auto;
-    }
-
-    #logo {
-        font-size: 200%;
-    }
-
     #logo,
     #menu {
-        line-height: 55px;
-
-        #hero-image {
-            position: relative;
-        }
-
-        #cover-text {
-            left: 0;
-            position: absolute;
-        }
-
-        #our-passion {
-            height: auto;
-            padding: 20px 70px;
-            text-align: center;
-            letter-spacing: 2px;
-        }
-
-        #our-passion h1 {
-            font-size: 200%;
-            padding-top: 20px;
-        }
-
-        #our-passion p {
-            padding: 20px 0;
-        }
-
-        .live {
-            background-color: peachpuff;
-            height: 200px;
-            width: 100%;
-        }
+        line-height: 65px;
     }
+
+    #hero-image {
+        position: relative;
+    }
+
+    #cover-text {
+        left: 0;
+        position: absolute;
+    }
+
+    #our-passion {
+        height: auto;
+        padding: 20px 70px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    #our-passion h1 {
+        font-size: 200%;
+        padding-top: 20px;
+    }
+
+    #our-passion p {
+        padding: 20px 0;
+    }
+
+    .live {
+        background-color: peachpuff;
+        height: 200px;
+        width: 100%;
+    }
+}
 }
