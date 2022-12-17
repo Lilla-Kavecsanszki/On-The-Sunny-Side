@@ -8,7 +8,7 @@
 
 body {
     font-family: montserrat, sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     color: #353838;
     max-width: 2000px;
 }
@@ -394,15 +394,16 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
     background-size: cover;
     clear: left;
     position: relative;
+    display: flex;
+    justify-content: end;
 }
 
 .signup-form {
-    margin: 100px 0% 0 0;
+    margin: 50px 30px 20%;
     color: #fff;
     background-color: rgba(53, 56, 56, 0.6);
     max-width: 700px;
     position: absolute;
-    left: 55%;
     padding: 30px;
 }
 
@@ -510,6 +511,10 @@ footer p {
     letter-spacing: 2px;
 }
 
+.mobile-carousel-container {
+    display: none;
+}
+
 /* Media queries */
 
 /* screens size from 1136px wide and down */
@@ -554,11 +559,6 @@ footer p {
         width: 100%;
     }
 
-    .signup-form {
-        padding: 5%;
-        left: 0%;
-    }
-
     #bottom-right {
         width: 100%;
     }
@@ -580,52 +580,108 @@ footer p {
     }
 
         /* carousel */
-    /* Fade out Gallery for smaller screens, idea from: https://thecuriouscorp.com/pure-css-sliders/ https://codepen.io/eltonkamami/pen/AZpVPz */
-    
-    /* how many images we have = slides: 9;
-    for how long we want each slide to show = time_per_slide: 3;
-    total time needed for full animation = total_animation_time: time_per_slide * slides = 27 */
+    /* Fade out Gallery for smaller screens, idea from: https://codepen.io/beahuszar/pen/yLYppYo */
     
     .carousel_wrapper, .carousel {
         display: none;
     }
 
-    body{
-      background: peachpuff;
+    /* Mobile simple carousel */
+    .mobile-carousel-container {
+        display: block;
+        width: 100%;
+        height: 400px;
+        background: peachpuff;
+        overflow: hidden;
+        position: relative; /* slides will position to this*/
     }
-    .container{
-      margin:50px auto;
-      width:500px;
-      height:300px;
-      overflow:hidden;
-      border:10px solid;
-      border-top-color:#856036;
-      border-left-color:#5d4426;
-      border-bottom-color:#856036;
-      border-right-color:#5d4426;
-      position:relative;
-    
+
+    .step-container {
+        width: 100%;
+        height: 100%;
+        position: absolute; /* so that they are stacked */
+        transition: all ease-in-out 500ms;
+        opacity: 0;  /* make sure they are not visible */
+        visibility: hidden /* make sure they are not visible */
     }
-    .photo{
-      position:absolute;
-      animation:round 27s infinite;
-      opacity:0;
-      
+
+    .mobile-carousel-container input[type=radio] {
+        display: none;
     }
-    @keyframes round{   
-      25%{
-        opacity:1;
-      }
-      40%{
-        opacity:0;
-      }
-    } 
-    
-    @for 2 from 1 to 9 + 1{
-        img:nth-child(2){
-          animation-delay:21s
-        }
-      }
+
+    .mobile-carousel-container input[type=radio]:checked + div {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .prev,
+    .next {
+        position: absolute;
+        bottom: 0;
+        top: 50%;
+        border-radius: 50%;
+        opacity: 30%;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background: grey;
+    }
+
+    .prev {
+        left: 0;
+        margin-left: 1%;
+    }
+
+    .next {
+        right: 0;
+        margin-right: 1%;
+    }
+
+    .mobile-carousel-container label {
+        cursor: pointer;
+        width: 1.5rem;
+        height: 1.5rem;
+        background: white;
+    }
+
+    .chevron:before {
+        border-style: solid;
+        border-width: 1px 1px 0 0;
+        content: '';
+        display: inline-block;
+        height: 0.45em;
+        left: 0.15em;
+        position: relative;
+        top: 0.15em;
+        transform: rotate(-45deg);
+        width: 0.45em;
+    }
+
+    .chevron.prev:before {
+        left: 0.25em;
+        transform: rotate(-135deg);
+    }
+
+    .chevron.next:before {
+        left: 5px;
+        transform: rotate(45deg);
+    }
+
+    #slide-1 {
+        background: url("../images/morocco-images/camels-desert.jpg") center no-repeat;
+        background-size: contain;
+    }
+
+    #slide-2 {
+        background: url("../images/morocco-images/carpets.jpg") center no-repeat;
+        background-size: contain;
+    }
+
+    #slide-3 {
+        background: url("../images/morocco-images/cocktail-beach.jpg") center no-repeat;
+        background-size: contain;
+    }
 }
 
 /* screen sizes from 500px wide and down */
