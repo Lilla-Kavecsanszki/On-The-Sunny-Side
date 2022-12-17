@@ -6,15 +6,26 @@ The On The Sunny Side website is designed to give potential customers inspiratio
 
 [Link to the website](https://lilla-kavecsanszki.github.io/On-The-Sunny-Side/)
 
+The business goals of this website are:
+-
+-
+-
 
-
-space for the responsive screenshot
-
-
+The customer goals of this website are:
+-
+-
+-
 
 ## User Experience (UX)
 
-hiroehbioerhbiohbr
+#### Ideal client
+
+The ideal client for this business is:
+
+English speaking.
+Has disposable income.
+Likes to travel abroad.
+Primarily people who lives in the UK (but can be anywhere in the world).
 
 ## Accessibility
 
@@ -27,5 +38,42 @@ I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator
 
 
 
+ font-family: montserrat, sans-serif;
+        font-family: poiret one, cursive;
+
+
+    
+
+
+
+space for the responsive screenshot
+
+
 
 https://codepen.io/beahuszar/pen/yLYppYo
+
+## Credits
+
+### Content
+
+The text for the Home page - Georgina Kavecsanszki and About page was taken from Wikipedia.
+
+### Media
+
+All the photos used in this site were obtained from Pexels.com.
+
+### Code
+
+CSS code for carousel that I used for responsiveness of gallery images was originally taken from A Pen By Huszar Beata and then edited.
+CCS code for 3D carousel for gallery pictures was originally taken from 
+
+### Acknowledgements
+
+I received inspiration for this project from my own studies of tourism and my love of travelling. I have also liked the solutions on the website of Africasafari https://www.tourcompass.co.uk/africa.htm
+My mentor Elaine Roche guided me towards final tweaks and positioning.
+
+### Disclaimer
+
+This website is for educational use only.
+
+
