@@ -555,8 +555,8 @@ footer p {
     }
 
     .signup-form {
-        right: 0%;
         padding: 5%;
+        left: 0%;
     }
 
     #bottom-right {
