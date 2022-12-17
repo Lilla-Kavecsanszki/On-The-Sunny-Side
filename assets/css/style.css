@@ -583,8 +583,8 @@ footer p {
     /* Fade out Gallery for smaller screens, idea from: https://thecuriouscorp.com/pure-css-sliders/ https://codepen.io/eltonkamami/pen/AZpVPz */
     
     /* how many images we have = slides: 9;
-    how much we want each slide to show = time_per_slide: 4;
-    total time needed for full animation = total_animation_time: time_per_slide * slides = 36 */
+    for how long we want each slide to show = time_per_slide: 3;
+    total time needed for full animation = total_animation_time: time_per_slide * slides = 27 */
     
     .carousel_wrapper, .carousel {
         display: none;
@@ -608,7 +608,7 @@ footer p {
     }
     .photo{
       position:absolute;
-      animation:round 36s infinite;
+      animation:round 27s infinite;
       opacity:0;
       
     }
@@ -621,12 +621,11 @@ footer p {
       }
     } 
     
-    @for 3 from 1 to 9 + 1{
-      img:nth-child(3){
-        animation-delay: 24s
+    @for 2 from 1 to 9 + 1{
+        img:nth-child(2){
+          animation-delay:21s
+        }
       }
-    }
-      
 }
 
 /* screen sizes from 500px wide and down */
