@@ -101,6 +101,21 @@ The On The Sunny Side website is deployed using Github Pages, this was done by:
    main, and the folder option to /root
 6. Click save, wait a few minutes and On The Sunny Side webssite is now deployed at the URL displayed
 
+# Local Deployment
+
+## How to Clone
+
+Locate the main page of On-The-Sunny-Side repository, click the Code button to the left of the green Gitpod button, then choose Local.
+Copy the URL of the repository, you can click on headings for HTTPS, SSH, and Github CLI to find their individual links
+Open your own terminal in your editor and change the current working directory to the location of where you want the cloned directory to be.
+In the terminal type git clone, and then paste the URL you copied from On-The-Sunny-Side repository page
+Press enter to complete.
+
+## How to Fork
+
+Locate the main page of On-The-Sunny-Side repository
+Click the fork button in the top right of the screen, between the watch, and star buttons.
+
 # Testing
 
 
