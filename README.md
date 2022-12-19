@@ -4,7 +4,10 @@ This website is for all users who are planning to take some winter holidays, in 
 
 The On The Sunny Side website is designed to give potential customers inspiration and informative details and pictures about the sunny holiday destinations where it is offering tours during the cold winter months. This means the site needs to be responsive, allowing visiters to view on any device without quality of experience suffering. The main focus of the site is to be engaging, colourful, motivating while providing useful information about the featured destination's climate. The customers can also submit an enquire form to ask for a quote for their dream holiday. 
 
-[Link to the website](https://lilla-kavecsanszki.github.io/On-The-Sunny-Side/)
+[Link to my website](https://lilla-kavecsanszki.github.io/On-The-Sunny-Side/)
+
+space for the responsive screenshot
+
 
 The business goals of this website are:
 -
@@ -16,7 +19,6 @@ The customer goals of this website are:
 -
 -
 
-space for the responsive screenshot
 
 
 ## User Experience (UX)
@@ -39,14 +41,13 @@ Lighthouse testing for desktop and mobile have scored 100% for accessibility on 
 
 I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator which determined that no colour contrast issues were found on any of the pages.
 
-
-
- font-family: montserrat, sans-serif;
-        font-family: poiret one, cursive;
-
 ## Design
 
 #### Colour Scheme
+
+- #353838
+- #4d4044
+- peachpuff
 
 #### Typography
 
@@ -71,6 +72,20 @@ HTML, and CSS were used to complete this project.
 - Gitpod was used to create and edit all original code
 - Google Chrome Developer Tools was used for debugging and testing with Lighthouse
 - [Google Fonts](https://fonts.google.com/) was used to import both fonts for use on the site
+
+## Features
+
+## Deployment
+
+The On The Sunny Side website is deployed using Github Pages, this was done by:
+
+1. Login to Github
+2. Navigate to the account Lilla-Kavecsanszki, and locate the On-The-Sunny-Side repository
+3. In On-The-Sunny-Side repository click on the Settings tab
+4. In the Code and Automation subheading in the sidebar click on Pages
+5. Under Build and Deployment find the Source section, set the source to deploy from a branch, and set this branch to  
+   main, and the folder option to /root
+6. Click save, wait a few minutes and On The Sunny Side webssite is now deployed at the URL displayed
 
 ## Credits
 
