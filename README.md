@@ -16,6 +16,9 @@ The customer goals of this website are:
 -
 -
 
+space for the responsive screenshot
+
+
 ## User Experience (UX)
 
 #### Ideal client
@@ -41,22 +44,33 @@ I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator
  font-family: montserrat, sans-serif;
         font-family: poiret one, cursive;
 
+## Design
 
-    
+#### Languages Used
 
-
-
-space for the responsive screenshot
-
+HTML, and CSS were used to complete this project.
 
 
-https://codepen.io/beahuszar/pen/yLYppYo
+## Technologies Used
+
+- [Font Awesome](https://fontawesome.com/) was used for all icons on the pages
+- Github was used to store all files for this website
+- Gitpod was used to create and edit all original code
+- Google Chrome Developer Tools was used for debugging and testing with Lighthouse
+- [Google Fonts](https://fonts.google.com/) was used to import both fonts for use on the site
+
+
+
+
+
+
+
 
 ## Credits
 
 ### Content
 
-The text for the Home page - Georgina Kavecsanszki and About page was taken from Wikipedia.
+The text for the Home page was a create work of Georgina Kavecsanszki. The informative texts, describing the climate of the destination countries was originally taken from Wikipedia then cropped.
 
 ### Media
 
@@ -73,7 +87,7 @@ https://codepen.io/blueacornfed/pen/qdRddr and then edited.
 
 ### Acknowledgements
 
-I received inspiration for this project from my own studies of tourism and my love of travelling. I have also liked the solutions on the website of Africasafari https://www.tourcompass.co.uk/africa.htm
+I received inspiration for this project from my own studies of tourism and my love of travelling. I have also liked the solutions on the website of Africasafari https://www.tourcompass.co.uk/africa.htm and AJ Greaves' project, the Portrait Artist.
 My mentor Elaine Roche guided me towards final tweaks and positioning.
 
 ### Disclaimer
