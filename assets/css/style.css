@@ -78,9 +78,6 @@ header {
 /* dropdown menu idea from https://www.w3schools.com/Css/css_dropdowns.asp */
 
 .dropbtn {
-    background-color: rgba (224, 159, 142, 0.1);
-    border-bottom: 1px solid peachpuff;
-    border-top: 1px solid peachpuff;
     color: white;
     padding: 1px;
     font-size: 20px;
@@ -135,7 +132,6 @@ header {
 
 #cover-text h2 {
     color: #4d4044;
-    text-shadow: #353838;
     font-family: poiret one, cursive;
 }
 
@@ -185,7 +181,6 @@ header {
 
 #our-passion h1 {
     color: #4d4044;
-    text-shadow: #353838;
     font-family: poiret one, cursive;
     font-size: 300%;
     padding-top: 40px;
@@ -195,7 +190,6 @@ header {
 #our-passion p {
     padding-top: 40px;
     font-weight: bold;
-    text-shadow: black;
     font-size: 110%;
 }
 
