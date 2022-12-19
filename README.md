@@ -6,6 +6,7 @@ The On The Sunny Side website is designed to give potential customers inspiratio
 
 [Link to my website](https://lilla-kavecsanszki.github.io/On-The-Sunny-Side/)
 
+
 space for the responsive screenshot
 
 
@@ -21,9 +22,11 @@ The customer goals of this website are:
 
 
 
-## User Experience (UX)
+# User Experience (UX)
 
-#### Ideal client
+
+### Ideal client
+
 
 The ideal client for this business is:
 
@@ -32,26 +35,30 @@ Has disposable income.
 Likes to travel abroad.
 Primarily people who lives in the UK (but can be anywhere in the world).
 
-## Accessibility
+# Accessibility
+
 
 Accessibility has been a very important point for me while designing website.
 
 I tested all pages of my site using [WAVE](https://wave.webaim.org) and have no errors on any page.
 Lighthouse testing for desktop and mobile have scored 100% for accessibility on both.
-![Lighthouse](assets/images/README/Accessibility_Lighthouse_mobile%26desktop.png "Accessibility")
 
+![Lighthouse](assets/images/README/Accessibility_Lighthouse_mobile%26desktop.png "Accessibility")
 
 I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator which determined that no colour contrast issues were found on any of the pages.
 
-## Design
+# Design
 
-#### Colour Scheme
+
+### Colour Scheme
+
 
 - #353838
 - #4d4044
 - peachpuff
 
-#### Typography
+### Typography
+
 
 I used [Google Fonts](https://fonts.google.com/) to import the following fonts to the site.
 
@@ -63,11 +70,13 @@ The secondary font used for the body is Montserrat which was selected for its cl
 
 ![Montserrat Font](assets/images/README/Montserrat.png "Montserrat Font")
 
-#### Languages Used
+# Languages Used
+
 
 HTML, and CSS were used to complete this project.
 
-## Technologies Used
+# Technologies Used
+
 
 - [Font Awesome](https://fontawesome.com/) was used for all icons on the pages
 - Github was used to store all files for this website
@@ -75,9 +84,12 @@ HTML, and CSS were used to complete this project.
 - Google Chrome Developer Tools was used for debugging and testing with Lighthouse
 - [Google Fonts](https://fonts.google.com/) was used to import both fonts for use on the site
 
-## Features
+# Features
 
-## Deployment
+
+
+# Deployment
+
 
 The On The Sunny Side website is deployed using Github Pages, this was done by:
 
@@ -89,7 +101,8 @@ The On The Sunny Side website is deployed using Github Pages, this was done by:
    main, and the folder option to /root
 6. Click save, wait a few minutes and On The Sunny Side webssite is now deployed at the URL displayed
 
-## Testing
+# Testing
+
 
 ![Lighthouse](assets/images/README/W3C_CSS_Validator.png "css")
 ![Lighthouse](assets/images/README/W3C_HTML_Validator-index.png "index")
@@ -99,17 +112,21 @@ The On The Sunny Side website is deployed using Github Pages, this was done by:
 ![Lighthouse](assets/images/README/W3C_HTML_Validator_enquire-now.png "enquire_now")
 
 
-## Credits
+# Credits
 
-### Content
+
+## Content
+
 
 The text for the Home page was a create work of Georgina Kavecsanszki. The informative texts, describing the climate of the destination countries was originally taken from Wikipedia then cropped.
 
-### Media
+## Media
+
 
 All the photos used in this site were obtained from Pexels.com.
 
-### Code
+## Code
+
 
 The dropdown menu CSS code was originally taken from https://www.w3schools.com/Css/css_dropdowns.asp and then edited.
 
@@ -118,12 +135,14 @@ CSS code for carousel that I used for responsiveness of gallery images was origi
 CCS code for 3D carousel for gallery pictures was originally taken from https://freehtmldesigns.com/css-carousels/ 
 https://codepen.io/blueacornfed/pen/qdRddr and then edited.
 
-### Acknowledgements
+## Acknowledgements
+
 
 I received inspiration for this project from my own studies of tourism and my love of travelling. I have also liked the solutions on the website of Africasafari https://www.tourcompass.co.uk/africa.htm and AJ Greaves' project, the Portrait Artist.
 My mentor Elaine Roche guided me towards final tweaks and positioning.
 
-### Disclaimer
+## Disclaimer
+
 
 This website is for educational use only.
 
