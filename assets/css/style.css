@@ -30,12 +30,6 @@ h2 {
 }
 
 /* navigation links */
-#main-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 #menu {
     font-size: 20px;
     letter-spacing: 1px;
@@ -179,7 +173,7 @@ header {
 
 }
 
-#our-passion h1 {
+#our-passion h2 {
     color: #4d4044;
     font-family: poiret one, cursive;
     font-size: 300%;
@@ -541,7 +535,7 @@ footer p {
         letter-spacing: 2px;
     }
 
-    #our-passion h1 {
+    #our-passion h2 {
         font-size: 200%;
         padding-top: 20px;
     }
@@ -565,7 +559,7 @@ footer p {
     }
 
     #left-side {
-       /* width: 100%; */
+        /* width: 100%; */
         margin-top: 50px;
         display: flex;
         align-items: center;
@@ -804,7 +798,13 @@ footer p {
 }
 
 /* screen sizes from 500px wide and down */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 501px) {
+
+    #main-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     #logo {
         float: left;
@@ -865,7 +865,7 @@ footer p {
         letter-spacing: 2px;
     }
 
-    #our-passion h1 {
+    #our-passion h2 {
         font-size: 200%;
         padding-top: 20px;
     }
