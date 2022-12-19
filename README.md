@@ -46,10 +46,23 @@ I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator
 
 ## Design
 
+#### Colour Scheme
+
+#### Typography
+
+I used [Google Fonts](https://fonts.google.com/) to import the following fonts to the site.
+
+The primary font used for headings and the navigation menu is Poiret One, this was chosen as it's easily readible, stylish with a little fun and aims to give the idea of a modern and clean designs. 
+
+![Poiret One Font](assets/images/README/Poiret%20One.png "Poiret One Font")
+
+The secondary font used for the body is Montserrat which was selected for its clear readibility, that yet works well with Poiret One to maintain an elegant outcome.
+
+![Montserrat Font](assets/images/README/Montserrat.png "Montserrat Font")
+
 #### Languages Used
 
 HTML, and CSS were used to complete this project.
-
 
 ## Technologies Used
 
@@ -58,13 +71,6 @@ HTML, and CSS were used to complete this project.
 - Gitpod was used to create and edit all original code
 - Google Chrome Developer Tools was used for debugging and testing with Lighthouse
 - [Google Fonts](https://fonts.google.com/) was used to import both fonts for use on the site
-
-
-
-
-
-
-
 
 ## Credits
 
