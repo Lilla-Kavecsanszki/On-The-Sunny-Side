@@ -10,7 +10,7 @@ body {
     font-family: montserrat, sans-serif;
     font-weight: 300;
     color: #353838;
-    max-width: 2000px;
+    max-width: 100%;
 }
 
 /* headings and logo */
@@ -123,6 +123,7 @@ header {
 
 #outer-section {
     padding-top: 75px;
+    width: 100%;
 }
 
 /* cover text on front page */
@@ -328,6 +329,7 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 #destination-top {
     height: 600px;
     background-color: peachpuff;
+    width: 100%;
 }
 
 #left-side {
@@ -348,6 +350,7 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
 
 #destination-bottom {
     background-color: peachpuff;
+    width: 100%;
 }
 
 #bottom-left,
@@ -568,7 +571,7 @@ footer p {
     }
 
     #left-side {
-        width: 100%;
+       /* width: 100%; */
         margin-top: 50px;
         display: flex;
         align-items: center;
@@ -579,10 +582,11 @@ footer p {
         margin-top: 50px;
     }
 
-        /* carousel */
+    /* carousel */
     /* Fade out Gallery for smaller screens, idea from: https://codepen.io/beahuszar/pen/yLYppYo */
-    
-    .carousel_wrapper, .carousel {
+
+    .carousel_wrapper,
+    .carousel {
         display: none;
     }
 
@@ -593,23 +597,23 @@ footer p {
         height: 400px;
         background: peachpuff;
         overflow: hidden;
-        position: relative; 
+        position: relative;
     }
 
     .step-container {
         width: 100%;
         height: 100%;
-        position: absolute; 
+        position: absolute;
         transition: all ease-in-out 500ms;
-        opacity: 0;  
-        visibility: hidden 
+        opacity: 0;
+        visibility: hidden
     }
 
     .mobile-carousel-container input[type=radio] {
         display: none;
     }
 
-    .mobile-carousel-container input[type=radio]:checked + div {
+    .mobile-carousel-container input[type=radio]:checked+div {
         opacity: 1;
         visibility: visible;
     }
@@ -683,31 +687,37 @@ footer p {
         background: url("../images/morocco-images/spices.jpg") center no-repeat;
         background-size: contain;
     }
+
     #slide-4 {
         background: url("../images/morocco-images/shell-ocean.jpeg") center no-repeat;
         background-size: contain;
     }
+
     #slide-5 {
         background: url("../images/morocco-images/food-tagine.jpg") center no-repeat;
         background-size: contain;
     }
+
     #slide-6 {
         background: url("../images/morocco-images/morocco-snorkeling.jpeg") center no-repeat;
         background-size: contain;
     }
+
     #slide-7 {
         background: url("../images/morocco-images/cocktail-beach.jpg") center no-repeat;
         background-size: contain;
     }
+
     #slide-8 {
         background: url("../images/morocco-images/shell-and-star.jpeg") center no-repeat;
         background-size: contain;
     }
+
     #slide-9 {
         background: url("../images/morocco-images/camels-desert.jpg") center no-repeat;
         background-size: contain;
     }
-  
+
     #slide-1-barbados {
         background: url("../images/barbados-images/kolibri.jpeg") center no-repeat;
         background-size: contain;
@@ -722,30 +732,37 @@ footer p {
         background: url("../images/barbados-images/barbados-beachjpeg.jpeg") center no-repeat;
         background-size: contain;
     }
+
     #slide-4-barbados {
         background: url("../images/barbados-images/palm-leaf.jpg") center no-repeat;
         background-size: contain;
     }
+
     #slide-5-barbados {
         background: url("../images/barbados-images/barbados-ocean.jpeg") center no-repeat;
         background-size: contain;
     }
+
     #slide-6-barbados {
         background: url("../images/barbados-images/tropical-lunch.jpg") center no-repeat;
         background-size: contain;
     }
+
     #slide-7-barbados {
         background: url("../images/barbados-images/barbados-waves.jpeg") center no-repeat;
         background-size: contain;
     }
+
     #slide-8-barbados {
         background: url("../images/barbados-images/parasols.jpg") center no-repeat;
         background-size: contain;
     }
+
     #slide-9-barbados {
         background: url("../images/barbados-images/barbados-night.jpg") center no-repeat;
         background-size: contain;
     }
+
     #slide-1-dubai {
         background: url("../images/dubai-images/snorkeling-dubai.jpeg") center no-repeat;
         background-size: contain;
@@ -760,26 +777,32 @@ footer p {
         background: url("../images/dubai-images/dubai-sky.jpeg") center no-repeat;
         background-size: contain;
     }
+
     #slide-4-dubai {
         background: url("../images/dubai-images/dubai-restaurant.jpg") center no-repeat;
         background-size: contain;
     }
+
     #slide-5-dubai {
         background: url("../images/dubai-images/dubai-night.jpg") center no-repeat;
         background-size: contain;
     }
+
     #slide-6-dubai {
         background: url("../images/dubai-images/dubai-golden-hour.jpeg") center no-repeat;
         background-size: contain;
     }
+
     #slide-7-dubai {
         background: url("../images/dubai-images/dubai-drinks.jpg") center no-repeat;
         background-size: contain;
     }
+
     #slide-8-dubai {
         background: url("../images/dubai-images/dubai-city.jpeg") center no-repeat;
         background-size: contain;
     }
+
     #slide-9-dubai {
         background: url("../images/dubai-images/dubai-beach.jpg") center no-repeat;
         background-size: contain;
@@ -858,7 +881,7 @@ footer p {
     }
 
     #left-side {
-        width: 100%;
+        margin-left: 0;
         margin-top: 50px;
         display: flex;
         align-items: center;

@@ -64,8 +64,12 @@ All the photos used in this site were obtained from Pexels.com.
 
 ### Code
 
-CSS code for carousel that I used for responsiveness of gallery images was originally taken from A Pen By Huszar Beata and then edited.
-CCS code for 3D carousel for gallery pictures was originally taken from 
+The dropdown menu CSS code was originally taken from https://www.w3schools.com/Css/css_dropdowns.asp and then edited.
+
+CSS code for carousel that I used for responsiveness of gallery images was originally taken from A Pen By Beata Huszar and then edited. https://codepen.io/beahuszar/pen/yLYppYo 
+
+CCS code for 3D carousel for gallery pictures was originally taken from https://freehtmldesigns.com/css-carousels/ 
+https://codepen.io/blueacornfed/pen/qdRddr and then edited.
 
 ### Acknowledgements
 
