@@ -37,7 +37,9 @@ Primarily people who lives in the UK (but can be anywhere in the world).
 Accessibility has been a very important point for me while designing website.
 
 I tested all pages of my site using [WAVE](https://wave.webaim.org) and have no errors on any page.
-Lighthouse testing for desktop and mobile have scored 100% for accessibility on both
+Lighthouse testing for desktop and mobile have scored 100% for accessibility on both.
+![Lighthouse](assets/images/README/Accessibility_Lighthouse_mobile%26desktop.png "Accessibility")
+
 
 I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator which determined that no colour contrast issues were found on any of the pages.
 
@@ -86,6 +88,16 @@ The On The Sunny Side website is deployed using Github Pages, this was done by:
 5. Under Build and Deployment find the Source section, set the source to deploy from a branch, and set this branch to  
    main, and the folder option to /root
 6. Click save, wait a few minutes and On The Sunny Side webssite is now deployed at the URL displayed
+
+## Testing
+
+![Lighthouse](assets/images/README/W3C_CSS_Validator.png "css")
+![Lighthouse](assets/images/README/W3C_HTML_Validator-index.png "index")
+![Lighthouse](assets/images/README/W3C_HTML_Validator-morocco.png "morocco")
+![Lighthouse](assets/images/README/W3C_HTML_Validator-barbados.png "barbados")
+![Lighthouse](assets/images/README/W3C_HTML_Validator-dubai.png "dubai")
+![Lighthouse](assets/images/README/W3C_HTML_Validator_enquire-now.png "enquire_now")
+
 
 ## Credits
 
