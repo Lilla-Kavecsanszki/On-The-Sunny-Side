@@ -1,13 +1,13 @@
 # On The Sunny Side
 
-This website is for all users who are planning to take some winter holidays, in a sunny destination, while the weather is cold. The website is colorful and motivating, offering to inspire its users to check out 3 different destinations and learn about them and their climate. The users can than submit an enquire form to ask for a quote. 
+This website is for all users who are planning to take some winter holidays, in a sunny destination, while the weather is cold. The website is colorful and motivating, offering to inspire its users to check out 3 different destinations and learn about them and their climate. The users can than submit an enquiry form to ask for a quote. 
 
-The On The Sunny Side website is designed to give potential customers inspiration and informative details and pictures about the sunny holiday destinations where it is offering tours during the cold winter months. This means the site needs to be responsive, allowing visiters to view on any device without quality of experience suffering. The main focus of the site is to be engaging, colourful, motivating while providing useful information about the featured destination's climate. The customers can also submit an enquire form to ask for a quote for their dream holiday. 
+The On The Sunny Side website is designed to give potential customers inspiration and informative details and pictures about the sunny holiday destinations where it is offering tours during the cold winter months. This means the site needs to be responsive, allowing visitors to view on any sized device without quality of experience suffering. The main focus of the site is to be engaging, colourful, motivating while providing useful information about the featured destination's climate. The customers can also submit an enquiry form to ask for a quote of their dream holiday. 
 
 [Link to my website](https://lilla-kavecsanszki.github.io/On-The-Sunny-Side/)
 
 
-![Am I Responsive?](assets/images/README/Responsive.png "Am I Responsive?")
+![Am I Responsive?](assets/images/readme-images/Responsive.png "Am I Responsive?")
 
 [I Am Responsive](https://ui.dev/amiresponsive?url=https://lilla-kavecsanszki.github.io/On-The-Sunny-Side/index.html)
 
@@ -20,7 +20,7 @@ The business goals of this website are:
 
 
 The customer goals of this website are:
-- Searching for high quality, bespoke tours in sunny countried during winter times
+- Searching for high quality, bespoke tours in sunny countries during winter times
 - Easy to edit and\or add any specific stops, excursions to their package (with the Wishlist text box on the Enquiry form)
 - Personalised prices based on personal needs and budgets. 
 
@@ -45,8 +45,7 @@ Visitors to this website are searching for:
 This website is the best way to help them achieve these things because:
 
 - Most tours at other agencies are limited in terms of their packages and availabilities. 
-- On different travel agnecy websites it is difficult to choose between their options while people can prefer some  
-  features from option A but some from any other options too. They however wouldn't have the opportunity to combine those.
+- On different travel agnecy websites it is difficult to choose between their options while people can prefer some features from option A but some from any other options too. They however wouldn't have the opportunity to combine those.
 
 This website is:
 
@@ -74,10 +73,9 @@ Client stories
 
 Accessibility has been a very important point for me while designing website.
 
-I tested all pages of my site using [WAVE](https://wave.webaim.org) and have no errors on any page.
 Lighthouse testing for desktop and mobile have scored 100% for accessibility on both.
 
-![Lighthouse](assets/images/README/Accessibility_Lighthouse_mobile%26desktop.png "Accessibility")
+![Lighthouse](assets/images/readme-images/Accessibility_Lighthouse_mobile%26desktop.png "Accessibility")
 
 I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator which determined that no colour contrast issues were found on any of the pages.
 
@@ -97,11 +95,11 @@ I used [Google Fonts](https://fonts.google.com/) to import the following fonts t
 
 The primary font used for headings and the navigation menu is Poiret One, this was chosen as it's easily readible, stylish with a little fun and aims to give the idea of a modern and clean designs. 
 
-![Poiret One Font](assets/images/README/Poiret%20One.png "Poiret One Font")
+![Poiret One Font](assets/images/readme-images/Poiret%20One.png "Poiret One Font")
 
 The secondary font used for the body is Montserrat which was selected for its clear readibility, that yet works well with Poiret One to maintain an elegant outcome.
 
-![Montserrat Font](assets/images/README/Montserrat.png "Montserrat Font")
+![Montserrat Font](assets/images/readme-images/Montserrat.png "Montserrat Font")
 
 # Languages Used
 
@@ -119,7 +117,7 @@ HTML, and CSS were used to complete this project.
 
 # Features
 
-The On The Sunny Side website includes five main pages, Home, Destinations - Morocco, Destinations - Barbados, Destinations - Dubai and Enquire Now. All the pages are all accessible through the navigation menu shown at the top of the screen. This navigation menu also contains a Contact button next to the Home button that takes the customer to the bottom of the page, on every page, to reveale the contact information of the business. The navigation bar contains a logo as well, on the left side that will take the customer back to the Home page in every case. 
+The On The Sunny Side website includes five main pages; Home, Destinations - Morocco, Destinations - Barbados, Destinations - Dubai and Enquire Now. All the pages are all accessible through the navigation menu shown at the top of the screen. This navigation menu also contains a Contact button next to the Home button that takes the customer to the bottom of the page, on every page, to reveal the contact information of the business. The navigation bar contains a logo as well, on the left side that will take the customer back to the Home page in every case. 
 
 
 #### The pages include:
@@ -132,7 +130,7 @@ A footer is displayed at the bottom of each page which displays the contact info
 
 #### Home
 
-The Home page features a hero image, that is very inviting as a dreamy beach photo. It has the header - navigation bar displayed as an overlay, that is also seethrough a little bit. The hero image also has cover text on it with a motto text. This oval shape and text zooms out each time when the page loads. The purpose of these elements are to give a great first impression on arriving at the website, with elegant and luxurious feel to it.
+The Home page features a hero image, that is very inviting as a dreamy beach photo. It has the header - navigation bar displayed as an overlay, that is also seethrough a little bit. The hero image also has a cover text on it with a motto text. This oval shape and text zooms out each time when the page loads. The purpose of these elements are to give a great first impression on arriving at the website, with an elegant and luxurious feel to it.
 
 After the hero image there is a marketing and explanetory text that tells the customers what the business do.
 
@@ -147,7 +145,7 @@ After this section there is an inspirational photo of the given destination, as 
 
 #### Enquire Now 
 
-The page features an other hero page that is about a beautiful sunset over the beach and ocean with it waves. Apart from inspirational, motivational reasons it also symbolises the final step that is to fill out the enquiry form to get a quote. 
+The page features an other hero image that is about a beautiful sunset over the beach and ocean with its waves. Apart from inspirational and motivational reasons it also symbolises the final step. Tshat is to fill out the enquiry form to get a quote. 
 
 Then there is the enquiry form box, that I designed to be able to submit only when all boxes are filled out or selected. The submit button changes its colour after being pressed to give assurance to the customer.
 
@@ -179,27 +177,29 @@ Locate the main page of On-The-Sunny-Side repository. Click the fork button in t
 
 W3C CSS Validator result on the css page
 
-![css](assets/images/README/W3C_CSS_Validator.png "css")
+![css](assets/images/readme-images/W3C_CSS_Validator.png "css")
 
 W3C HTML Validator result on the Home page
 
-![index.html](assets/images/README/W3C_HTML_Validator-index.png "index")
+![index.html](assets/images/readme-images/W3C_HTML_Validator-index.png "index")
 
 W3C HTML Validator result on the Morocco Destination page
 
-![morocco.html](assets/images/README/W3C_HTML_Validator-morocco.png "morocco")
+![morocco.html](assets/images/readme-images/W3C_HTML_Validator-morocco.png "morocco")
 
 W3C HTML Validator result on the Bardbados Destination page
 
-![barbados.html](assets/images/README/W3C_HTML_Validator-barbados.png "barbados")
+![barbados.html](assets/images/readme-images/W3C_HTML_Validator-barbados.png "barbados")
 
 W3C HTML Validator result on the Dubai Destination page
 
-![dubai.html](assets/images/README/W3C_HTML_Validator-dubai.png "dubai")
+![dubai.html](assets/images/readme-images/W3C_HTML_Validator-dubai.png "dubai")
 
 W3C HTML Validator result on the Enquire Now page
 
-![enquire-now.html](assets/images/README/W3C_HTML_Validator_enquire-now.png "enquire_now")
+![enquire-now.html](assets/images/readme-images/W3C_HTML_Validator_enquire-now.png "enquire_now")
+
+I also tested all pages of my site using [WAVE](https://wave.webaim.org) and have no errors on any page.
 
 
 ## Manual Testing
@@ -231,7 +231,7 @@ https://codepen.io/blueacornfed/pen/qdRddr and then edited.
 ## Acknowledgements
 
 
-I received inspiration for this project from my own studies of tourism and my love of travelling. I have also liked the solutions on the website of Africasafari https://www.tourcompass.co.uk/africa.htm and AJ Greaves' project, the Portrait Artist.
+I received inspiration for this project from my own studies of tourism and my love of travelling. I have also liked the solutions on the website of [Africasafari](https://www.tourcompass.co.uk/africa.htm) and AJ Greaves' project, the [Portrait Artist](https://ajgreaves.github.io/portrait-artist/).
 Also big thank you for my mentor Elaine Roche who guided me towards final tweaks and gave me heads ups on positioning.
 
 ## Disclaimer
