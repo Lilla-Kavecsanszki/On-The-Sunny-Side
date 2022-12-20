@@ -12,15 +12,15 @@ The On The Sunny Side website is designed to give potential customers inspiratio
 
 The business goals of this website are:
 - Provide high quality examples of the destinations through their galleries and descriptions.
-- Drive sales in the form of first contact (through the Enquire Now page) that will then lead to a sales call with the 
-  travel agents.
+- Drive sales in the form of first contact (through the Enquire Now page) that will then lead to a sales call with a 
+  travel agent.
 - Excellent UX to keep potential clients on site long enough to fill out the enquiry form, even with a sticky navigation 
   bar for easier and hussle-free navigation throughout the website.
 
 
 The customer goals of this website are:
 - Searching for high quality, bespoke tours in sunny countried during winter times
-- Easy to edit and\or add any specific stops, excursions to their package (with the Wishlist text box)
+- Easy to edit and\or add any specific stops, excursions to their package (with the Wishlist text box on the Enquiry form)
 - Personalised prices based on personal needs and budgets. 
 
 # User Experience (UX)
@@ -31,10 +31,29 @@ The customer goals of this website are:
 
 The ideal client for this business is:
 
-English speaking.
-Has disposable income.
-Likes to travel abroad.
-Primarily people who lives in the UK (but can be anywhere in the world).
+- English speaking.
+- Has disposable income.
+- Likes to travel abroad.
+- Primarily people who lives in the UK (but can be anywhere in the world).
+- Individual, Couples, Families or Groups
+
+Visitors to this website are searching for:
+
+- An experienced travel agency to create a personalised trip for their ultimate holiday experience.
+
+This website is the best way to help them achieve these things because:
+
+- Most tours at other agencies are limited in terms of their packages and availabilities. 
+- On different travel agnecy websites it is difficult to choose between their options while people can prefer some  
+  features from option A but some from any other options too. They however wouldn't have the opportunity to combine those.
+
+This website is:
+
+- Easy to navigate due to its sticky navbar that scrolls with the user on every pages.
+- Gives the customers options and access to useful and learnable information.
+- Gives the customers the information they need without overloading them or distract them from their original ideas
+  or wishes.
+- Guiding them and their curiosity to the goal of the website - to fill out the enquiry form and so start a conversation.
 
 # Accessibility
 
@@ -49,7 +68,6 @@ Lighthouse testing for desktop and mobile have scored 100% for accessibility on 
 I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator which determined that no colour contrast issues were found on any of the pages.
 
 # Design
-
 
 ### Colour Scheme
 
@@ -119,13 +137,23 @@ Click the fork button in the top right of the screen, between the watch, and sta
 
 # Testing
 
+W3C CSS Validator result on the css page
+![css](assets/images/README/W3C_CSS_Validator.png "css")
 
-![Lighthouse](assets/images/README/W3C_CSS_Validator.png "css")
-![Lighthouse](assets/images/README/W3C_HTML_Validator-index.png "index")
-![Lighthouse](assets/images/README/W3C_HTML_Validator-morocco.png "morocco")
-![Lighthouse](assets/images/README/W3C_HTML_Validator-barbados.png "barbados")
-![Lighthouse](assets/images/README/W3C_HTML_Validator-dubai.png "dubai")
-![Lighthouse](assets/images/README/W3C_HTML_Validator_enquire-now.png "enquire_now")
+W3C HTML Validator result on the Home page
+![index.html](assets/images/README/W3C_HTML_Validator-index.png "index")
+
+W3C HTML Validator result on the Morocco Destination page
+![morocco.html](assets/images/README/W3C_HTML_Validator-morocco.png "morocco")
+
+W3C HTML Validator result on the Bardbados Destination page
+![barbados.html](assets/images/README/W3C_HTML_Validator-barbados.png "barbados")
+
+W3C HTML Validator result on the Dubai Destination page
+![dubai.html](assets/images/README/W3C_HTML_Validator-dubai.png "dubai")
+
+W3C HTML Validator result on the Enquire Now page
+![enquire-now.html](assets/images/README/W3C_HTML_Validator_enquire-now.png "enquire_now")
 
 
 # Credits
