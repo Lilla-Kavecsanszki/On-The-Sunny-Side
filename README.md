@@ -7,20 +7,21 @@ The On The Sunny Side website is designed to give potential customers inspiratio
 [Link to my website](https://lilla-kavecsanszki.github.io/On-The-Sunny-Side/)
 
 
-space for the responsive screenshot
+'space for the responsive screenshot'
 
 
 The business goals of this website are:
--
--
--
+- Provide high quality examples of the destinations through their galleries and descriptions.
+- Drive sales in the form of first contact (through the Enquire Now page) that will then lead to a sales call with the 
+  travel agents.
+- Excellent UX to keep potential clients on site long enough to fill out the enquiry form, even with a sticky navigation 
+  bar for easier and hussle-free navigation throughout the website.
+
 
 The customer goals of this website are:
--
--
--
-
-
+- Searching for high quality, bespoke tours in sunny countried during winter times
+- Easy to edit and\or add any specific stops, excursions to their package (with the Wishlist text box)
+- Personalised prices based on personal needs and budgets. 
 
 # User Experience (UX)
 
