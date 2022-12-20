@@ -862,6 +862,7 @@ footer p {
         left: 0;
         position: absolute;
         width: fit-content;
+        font-size: 100%;
     }
 
     #our-passion {
