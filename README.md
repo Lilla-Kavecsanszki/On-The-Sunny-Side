@@ -58,6 +58,18 @@ This website is:
 - The submit button on the enquiry form flags all information boxes that the customer might forgot to fill out before they 
   can send their full enquiry. 
 
+Client stories
+
+1. As a viewer to the website, I want to easily navigate the site, so I can find what I need efficiently.
+2. As a potential new customer to the website, I want to see a gallery that shows what I could do or visit in 
+   each destinations if decide to travel there.
+5. As a potential client, I want to view expected prices for a trip, so I can decide if it is within my budget to order.
+7. As an interested client, I want an easy to fill in contact form, so I can make contact with an agent and personalise my trip.
+8. As an interested observer and/or potential client, I want to follow the artist on social media, so I can keep up with latest news, excursions, existing customer stories etc
+.
+9. As a returning visitor to the website, who has already decided to contact the agency, I want to be able to find the request a quote page easily and contact details also for further information.
+
+
 # Accessibility
 
 
