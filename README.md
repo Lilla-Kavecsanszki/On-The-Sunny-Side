@@ -50,10 +50,13 @@ This website is the best way to help them achieve these things because:
 This website is:
 
 - Easy to navigate due to its sticky navbar that scrolls with the user on every pages.
+- Social media sites in footer, open up in new tabs in order to not to distract the customers away from the website.
 - Gives the customers options and access to useful and learnable information.
 - Gives the customers the information they need without overloading them or distract them from their original ideas
   or wishes.
 - Guiding them and their curiosity to the goal of the website - to fill out the enquiry form and so start a conversation.
+- The submit button on the enquiry form flags all information boxes that the customer might forgot to fill out before they 
+  can send their full enquiry. 
 
 # Accessibility
 
@@ -105,6 +108,17 @@ HTML, and CSS were used to complete this project.
 
 # Features
 
+The On The Sunny Side website includes five main pages, Home, Destinations - Morocco, Destinations - Barbados, Destinations - Dubai and Enquire Now. All the pages are all accessible through the navigation menu shown at the top of the screen. This navigation menu also contains a Contact button next to the Home button that takes the customer to the bottom of the page, on every page, to reveale the contact information of the business. The navigation bar contains a logo as well, on the left side that will take the customer back to the Home page in every case. 
+
+
+The pages include:
+
+A navigation bar that allows the customers to navigate to each of the main pages of the site. The navigation bar is fixed so it will follow the customer scrolling down the pages, giving them easier access to navigate again. It is also slightly seethrough to make the tab stand out and give an elegant touch to its design.
+The page the viewer is currently on is displayed with a different background colour and an over and underline as well to show which page is active. Upon hovering over each of the navigation menu links they'll also be changing their backgrounds and will be over and underlined to show the viewer where they are clicking. 
+The navigation bar is responsive meaning that it decreases in size, as well as the menu section will also appear underneath the logo if viewed on smaller screen sizes. This is to streamline the appearance of the navigation bar and reduce clutter on tablet and mobile screens.
+
+A footer is displayed at the bottom of each page which displays the contact information of the business, Copyright information with a disclaimer and social media links to Twitter, Facebook, Instagram and Youtube for the viewers to be able to be get in contact with the business on more platforms.
+
 
 
 # Deployment
@@ -125,34 +139,36 @@ The On The Sunny Side website is deployed using Github Pages, this was done by:
 ## How to Clone
 
 Locate the main page of On-The-Sunny-Side repository, click the Code button to the left of the green Gitpod button, then choose Local.
-Copy the URL of the repository, you can click on headings for HTTPS, SSH, and Github CLI to find their individual links
-Open your own terminal in your editor and change the current working directory to the location of where you want the cloned directory to be.
-In the terminal type git clone, and then paste the URL you copied from On-The-Sunny-Side repository page
-Press enter to complete.
+Copy the URL of the repository, you can click on headings for HTTPS, SSH, and Github CLI to find their individual links. Open your own terminal in your editor and change the current working directory to the location of where you want the cloned directory to be. In the terminal type git clone, and then paste the URL you copied from On-The-Sunny-Side repository page. Press enter to complete.
 
 ## How to Fork
 
-Locate the main page of On-The-Sunny-Side repository
-Click the fork button in the top right of the screen, between the watch, and star buttons.
+Locate the main page of On-The-Sunny-Side repository. Click the fork button in the top right of the screen, between the watch, and star buttons.
 
 # Testing
 
 W3C CSS Validator result on the css page
+
 ![css](assets/images/README/W3C_CSS_Validator.png "css")
 
 W3C HTML Validator result on the Home page
+
 ![index.html](assets/images/README/W3C_HTML_Validator-index.png "index")
 
 W3C HTML Validator result on the Morocco Destination page
+
 ![morocco.html](assets/images/README/W3C_HTML_Validator-morocco.png "morocco")
 
 W3C HTML Validator result on the Bardbados Destination page
+
 ![barbados.html](assets/images/README/W3C_HTML_Validator-barbados.png "barbados")
 
 W3C HTML Validator result on the Dubai Destination page
+
 ![dubai.html](assets/images/README/W3C_HTML_Validator-dubai.png "dubai")
 
 W3C HTML Validator result on the Enquire Now page
+
 ![enquire-now.html](assets/images/README/W3C_HTML_Validator_enquire-now.png "enquire_now")
 
 
@@ -162,7 +178,7 @@ W3C HTML Validator result on the Enquire Now page
 ## Content
 
 
-The text for the Home page was a create work of Georgina Kavecsanszki. The informative texts, describing the climate of the destination countries was originally taken from Wikipedia then cropped.
+The text for the Home page was a creative work of Georgina Kavecsanszki. The informative texts, describing the climate of the destination countries was originally taken from Wikipedia then cropped.
 
 ## Media
 
@@ -174,16 +190,16 @@ All the photos used in this site were obtained from Pexels.com.
 
 The dropdown menu CSS code was originally taken from https://www.w3schools.com/Css/css_dropdowns.asp and then edited.
 
-CSS code for carousel that I used for responsiveness of gallery images was originally taken from A Pen By Beata Huszar and then edited. https://codepen.io/beahuszar/pen/yLYppYo 
+CSS code for carousel that I used for responsiveness of gallery images was originally taken from A Pen by Beata Huszar and then edited. https://codepen.io/beahuszar/pen/yLYppYo 
 
-CCS code for 3D carousel for gallery pictures was originally taken from https://freehtmldesigns.com/css-carousels/ 
+CCS code for 3D carousel for gallery pictures was originally taken from A Pen by Blue Acorn https://freehtmldesigns.com/css-carousels/ 
 https://codepen.io/blueacornfed/pen/qdRddr and then edited.
 
 ## Acknowledgements
 
 
 I received inspiration for this project from my own studies of tourism and my love of travelling. I have also liked the solutions on the website of Africasafari https://www.tourcompass.co.uk/africa.htm and AJ Greaves' project, the Portrait Artist.
-My mentor Elaine Roche guided me towards final tweaks and positioning.
+Also big thank you for my mentor Elaine Roche who guided me towards final tweaks and gave me heads ups on positioning.
 
 ## Disclaimer
 
