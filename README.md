@@ -83,10 +83,16 @@ I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator
 
 ### Colour Scheme
 
+- Peachpuff #ffdab9
+- Very dark grayish cyan #353838
+- Very dark grayish pink #4d4044
+- Whitesmoke #f5f5f5, #ffffff
 
-- #353838
-- #4d4044
-- peachpuff
+I chose these colours apart from efficient contrasting to compliment my photos' blues, greens and purples and their ambiance that they give to the viewer. 
+
+The primary colour is Peachpuff which is a light peach colour that gives the ambiance of sunny summer day and some could associat with the sand, as well as putting us in a light feel. The purply-brown texts proved great contrast to peachpuff and gave consistency throughout the project.
+
+I also used some white and whitesmoke colours to further elevate the feeling of the website and with decreased opacity here and there increase its elegancy, as well. 
 
 ### Typography
 
@@ -204,6 +210,14 @@ I also tested all pages of my site using [WAVE](https://wave.webaim.org) and hav
 
 ## Manual Testing
 
+
+## Further testing
+
+I asked friends and family to look at the site on their devices and report any issues they find. Position of the text in cover-text was adjusted as a result of this on the Home page. They also reported it that the dropdown menu doesn't work in an efficient way when viewed on mobile screens with Safari browser. Instead of a simple tap, we have to press the button for a longer period of time in order to drop down. In every other case it worked perfectly, on Safari desktop screen size also.
+
+## Bugs
+
+The dropdown menu issue on mobile screens when browsing with Safari I couldn't resolve unfortunately. It will be a future ambition to resolve this problem.
 
 # Credits
 
