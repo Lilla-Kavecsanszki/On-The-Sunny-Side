@@ -7,8 +7,9 @@ The On The Sunny Side website is designed to give potential customers inspiratio
 [Link to my website](https://lilla-kavecsanszki.github.io/On-The-Sunny-Side/)
 
 
-'space for the responsive screenshot'
+![Am I Responsive?](assets/images/README/Responsive.png "Am I Responsive?")
 
+[I Am Responsive](https://ui.dev/amiresponsive?url=https://lilla-kavecsanszki.github.io/On-The-Sunny-Side/index.html)
 
 The business goals of this website are:
 - Provide high quality examples of the destinations through their galleries and descriptions.
@@ -62,13 +63,11 @@ Client stories
 
 1. As a viewer to the website, I want to easily navigate the site, so I can find what I need efficiently.
 2. As a potential new customer to the website, I want to see a gallery that shows what I could do or visit in 
-   each destinations if decide to travel there.
-5. As a potential client, I want to view expected prices for a trip, so I can decide if it is within my budget to order.
-7. As an interested client, I want an easy to fill in contact form, so I can make contact with an agent and personalise my trip.
-8. As an interested observer and/or potential client, I want to follow the artist on social media, so I can keep up with latest news, excursions, existing customer stories etc
-.
-9. As a returning visitor to the website, who has already decided to contact the agency, I want to be able to find the request a quote page easily and contact details also for further information.
-
+   each destinations if I decide to travel there.
+3. As a potential new customer, I want to be able to receive prices for a trip that customed to my preferences, so I can   decide if it is within my budget or to my liking to order.
+4. As an interested customer, I want an easy to fill in enquiry form, so I can make contact with an agent and personalise my trip acording to my liking, interest and budget.
+5. As an interested observer and/or customer, I want to follow the agency on social media, so I can keep up with its latest news, excursions, existing customer stories etc.
+6. As a returning visitor to the website, who has already decided to contact the agency, I want to be able to find the request a quote page easily and contact details also for further information.
 
 # Accessibility
 
@@ -123,7 +122,7 @@ HTML, and CSS were used to complete this project.
 The On The Sunny Side website includes five main pages, Home, Destinations - Morocco, Destinations - Barbados, Destinations - Dubai and Enquire Now. All the pages are all accessible through the navigation menu shown at the top of the screen. This navigation menu also contains a Contact button next to the Home button that takes the customer to the bottom of the page, on every page, to reveale the contact information of the business. The navigation bar contains a logo as well, on the left side that will take the customer back to the Home page in every case. 
 
 
-The pages include:
+#### The pages include:
 
 A navigation bar that allows the customers to navigate to each of the main pages of the site. The navigation bar is fixed so it will follow the customer scrolling down the pages, giving them easier access to navigate again. It is also slightly seethrough to make the tab stand out and give an elegant touch to its design.
 The page the viewer is currently on is displayed with a different background colour and an over and underline as well to show which page is active. Upon hovering over each of the navigation menu links they'll also be changing their backgrounds and will be over and underlined to show the viewer where they are clicking. 
@@ -131,7 +130,20 @@ The navigation bar is responsive meaning that it decreases in size, as well as t
 
 A footer is displayed at the bottom of each page which displays the contact information of the business, Copyright information with a disclaimer and social media links to Twitter, Facebook, Instagram and Youtube for the viewers to be able to be get in contact with the business on more platforms.
 
+#### Home
 
+The Home page features a hero image, that is very inviting as a dreamy beach photo. It has the header - navigation bar displayed as an overlay, that is also seethrough a little bit. The hero image also has cover text on it with a motto text. This oval shape and text zooms out each time when the page loads. The purpose of these elements are to give a great first impression on arriving at the website, with elegant and luxurious feel to it.
+
+After the hero image there is a marketing and explanetory text that tells the customers what the business do.
+
+After this section there is an other photo inserted, featuring a camera, a beach bag, a book and shells for inspirational purposes. 
+
+#### Destinations pages
+
+The three Destinations pages; Morocco, Barbados and Dubai both contains a page title, stating which destination is the current page about.
+Next to the title, there is a gallery section to give information and idea to the potential customers about each destinations without overwhelming them at the same time. These galleries are organised into a 3D rotating carousel for desktop screens and into a more simple fade out carousel for smaller screens to be able to fit and therefore enjoy the photos on a smaller screen too, one by one.
+
+After this section there is an inspirational photo of the given destination 
 
 # Deployment
 
