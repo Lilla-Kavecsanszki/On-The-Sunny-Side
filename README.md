@@ -141,9 +141,15 @@ After this section there is an other photo inserted, featuring a camera, a beach
 #### Destinations pages
 
 The three Destinations pages; Morocco, Barbados and Dubai both contains a page title, stating which destination is the current page about.
-Next to the title, there is a gallery section to give information and idea to the potential customers about each destinations without overwhelming them at the same time. These galleries are organised into a 3D rotating carousel for desktop screens and into a more simple fade out carousel for smaller screens to be able to fit and therefore enjoy the photos on a smaller screen too, one by one.
+Next to the title, the pages features a gallery section to give information and idea to the potential customers about each destinations without overwhelming them at the same time. These galleries are organised into a 3D rotating carousel for desktop screens and into a more simple fade out carousel for smaller screens to be able to fit and therefore enjoy the photos on a smaller screen too, one by one.
 
-After this section there is an inspirational photo of the given destination 
+After this section there is an inspirational photo of the given destination, as well as an informative paragraph next to it. On smaller screens the paragraph will go underneath the picture.
+
+#### Enquire Now 
+
+The page features an other hero page that is about a beautiful sunset over the beach and ocean with it waves. Apart from inspirational, motivational reasons it also symbolises the final step that is to fill out the enquiry form to get a quote. 
+
+Then there is the enquiry form box, that I designed to be able to submit only when all boxes are filled out or selected. The submit button changes its colour after being pressed to give assurance to the customer.
 
 # Deployment
 
@@ -194,6 +200,9 @@ W3C HTML Validator result on the Dubai Destination page
 W3C HTML Validator result on the Enquire Now page
 
 ![enquire-now.html](assets/images/README/W3C_HTML_Validator_enquire-now.png "enquire_now")
+
+
+## Manual Testing
 
 
 # Credits
