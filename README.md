@@ -214,8 +214,8 @@ I also tested all pages of my site using [WAVE](https://wave.webaim.org) and hav
 
 ## Manual Testing
 
-Home Page:
-Navigation bar:
+**Home Page:**
+**Navigation bar:**
 
 Go to the "Home" page from a desktop.
 Change the screen size from desktop to tablet to verify that the navigation bar is responsive and the menu section will go under the logo.
@@ -225,63 +225,64 @@ Click on each navigation menu item and verify that it links to the correct page.
 Hover over the menu buttons and verify the hover colour change with over and underlines work as expected.
 Click on the "Contact" button and verify that it jumps to the bottom of each pages to the footer where the relevant information can be found.
 
-Hero images:
+**Hero images:**
 
 Go to "Home" page from a desktop.
 Reduce and expand width of window to confirm that the image responds correctly and looks good.
 
-Cover-text on top of the hero page:
+**Cover-text on top of the hero page:**
 
 Reduce and expand width of window to confirm that the text in this section responds correctly and looks good on all device widths. I had to reduce font-size for this on smaller screen sizes and adjust the position of the container ellipse also for responsive reaction. The zoom-out effect also tested and works on all devices. 
 
-The Our Passion paragraph and second photo:
+**The Our Passion paragraph and second photo:**
 
 Reduce and expand width of window to confirm that the text and photo in these sections respond correctly and look good on all device widths.
 
-Footer:
+**Footer:**
 
 Click on each social media icons to confirm they open in a separate tab for their links.
 Reduce and expand width of window to verify that the footer is responsive and looks good on all device widths.
 
-Destination Pages; Morocco, Barbados, Dubai:
+**Destination Pages; Morocco, Barbados, Dubai:**
 
-Navigation bar:
+**Navigation bar:**
 Repeat verification steps done for navbar on Home page.
 Confirm that navbar code is identical on all html pages.
 
-3D carousel: 
+**3D carousel:** 
 It is only availabe to see on Desktop screens. I can confirm that it is not visible on smaller devices on any of the Destinations pages. On all 3 pages I can verify that the carousel rotates as expected and show 9 photos that look good.
 
-Fade-out carousel:
+**Fade-out carousel:**
 It is only available to see on tablet or mobile screens. I can confirm that it is not visible on desktop screen sizes on any of the Destination pages. On all 3 pages I can verify that the carousel appears and I can use the chevron buttons to step back and forth infinitaley and the carousel will show 9 photos after each other. The photos look good.
 
-Destinations page images and paragraphs:
+**Destinations page images and paragraphs:**
 
-Hover over each call to action button and verify the hover colour change.
-Click each call to action button and verify that it links to its relevant correct page.
-Reduce and expand width of window to verify that the call to action buttons spacing responds as expected.
-Confirm that the two buttons move to stacked on top of each other for mobile devices and display next to each other for larger screens.
+Reduce and expand width of window to verify that the left-side photos and the right-side paragraphs respond as expected on all 3 pages, the text will go underneath the photo and they center in the middle of the screen when viewing on smaller screens.
 
-Footer:
+Also confirm that the photo and the paragraph display next to each other for larger screens.
+
+**Footer:**
 
 Repeat verification steps done for footer on Home page.
 Confirm that footer code is identical on all html pages.
 
-Enquire Now Page:
-Navigation bar:
+**Enquire Now Page:**
+**Navigation bar:**
 
-Navbar code is identical on all html pages. Testing already completed.
-Hero image:
+Repeat verification steps done for navbar on Home page.
+Confirm that navbar code is identical on all html pages.
 
-Repeat verification steps done for hero image on About page.
-Contact form:
+Go to "Enquire Now" page from a desktop.
+Reduce and expand width of window to confirm that the image responds correctly and looks good.
+
+**Contact form:**
 
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with a file uploaded, verify that file selection process works.
 Try to submit the form with all inputs valid and verify that a success message appears.
-Reduce and expand width of window to verify that the form display behaves and centres the way expected, and that it looks good on all device widths.
-Footer:
+Reduce and expand width of window to verify that the form display behaves and centres as expected, and that it looks good on all device widths.
+
+**Footer:**
 
 Repeat verification steps done for footer on Home page.
 Confirm that footer code is identical on all html pages.
