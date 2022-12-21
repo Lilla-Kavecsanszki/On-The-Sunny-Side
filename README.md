@@ -7,7 +7,7 @@ The On The Sunny Side website is designed to give potential customers inspiratio
 [Link to my website](https://lilla-kavecsanszki.github.io/On-The-Sunny-Side/)
 
 
-![Am I Responsive?](assets/images/readme-images/responsive.png "Am I Responsive?")
+![Am I Responsive?](readme-images/responsive.png "Am I Responsive?")
 
 [I Am Responsive](https://ui.dev/amiresponsive?url=https://lilla-kavecsanszki.github.io/On-The-Sunny-Side/index.html)
 
@@ -75,7 +75,7 @@ Accessibility has been a very important point for me while designing website.
 
 Lighthouse testing for desktop and mobile have scored 100% for accessibility on both.
 
-![Lighthouse](assets/images/readme-images/accessibility_lighthouse_mobile%26desktop.png "Accessibility")
+![Lighthouse](readme-images/accessibility_lighthouse_mobile%26desktop.png "Accessibility")
 
 I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator which determined that no colour contrast issues were found on any of the pages.
 
@@ -88,7 +88,7 @@ I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator
 - Very dark grayish pink #4d4044
 - Whitesmoke #f5f5f5, #ffffff
 
-![My Colour Palette](assets/images/readme-images/colorkit.png "My Colour Palette")
+![My Colour Palette](readme-images/colorkit.png "My Colour Palette")
 
 [My Colour Palette](https://colorkit.co/palette/f5f5f5-ffdab9-4d4044-353838/)
 
@@ -105,11 +105,11 @@ I used [Google Fonts](https://fonts.google.com/) to import the following fonts t
 
 The primary font used for headings and the navigation menu is Poiret One, this was chosen as it's easily readible, stylish with a little fun and aims to give the idea of a modern and clean designs. 
 
-![Poiret One Font](assets/images/readme-images/poiret-one.png "Poiret One Font")
+![Poiret One Font](readme-images/poiret-one.png "Poiret One Font")
 
 The secondary font used for the body is Montserrat which was selected for its clear readibility, that yet works well with Poiret One to maintain an elegant outcome.
 
-![Montserrat Font](assets/images/readme-images/montserrat.png "Montserrat Font")
+![Montserrat Font](readme-images/montserrat.png "Montserrat Font")
 
 # Languages Used
 
@@ -187,27 +187,27 @@ Locate the main page of On-The-Sunny-Side repository. Click the fork button in t
 
 W3C CSS Validator result on the css page
 
-![css](assets/images/readme-images/w3c_css_validator.png "css")
+![css W3C validator](readme-images/w3c_css_validator.png "css W3C validator")
 
 W3C HTML Validator result on the Home page
 
-![index.html](assets/images/readme-images/w3c_html_validator_index.png "index")
+![index.html W3C validator](readme-images/w3c_html_validator_index.png "index W3C validator")
 
 W3C HTML Validator result on the Morocco Destination page
 
-![morocco.html](assets/images/readme-images/w3c_html_validator_morocco.png "morocco")
+![morocco.html W3C validator](readme-images/w3c_html_validator_morocco.png "morocco W3C validator")
 
 W3C HTML Validator result on the Bardbados Destination page
 
-![barbados.html](assets/images/readme-images/w3c_html_validator_barbados.png "barbados")
+![barbados.html W3C validator](readme-images/w3c_html_validator_barbados.png "barbados W3C validator")
 
 W3C HTML Validator result on the Dubai Destination page
 
-![dubai.html](assets/images/readme-images/w3c_html_validator_dubai.png "dubai")
+![dubai.html W3C validator](readme-images/w3c_html_validator_dubai.png "dubai W3C validator")
 
 W3C HTML Validator result on the Enquire Now page
 
-![enquire-now.html](assets/images/readme-images/w3c_html_validator_enquire-now.png "enquire_now")
+![enquire-now.html W3C validator](assets/images/readme-images/w3c_html_validator_enquire-now.png "enquire_now W3C validator")
 
 I also tested all pages of my site using [WAVE](https://wave.webaim.org) and have no errors on any page.
 
