@@ -207,8 +207,6 @@ W3C HTML Validator result on the Enquire Now page
 
 ![enquire-now.html W3C validator](readme-images/w3c_html_validator_enquire-now.png "enquire_now W3C validator")
 
-I also tested all pages of my site using [WAVE](https://wave.webaim.org) and have no errors on any page.
-
 
 ## Manual Testing
 

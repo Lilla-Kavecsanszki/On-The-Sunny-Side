@@ -408,6 +408,10 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
     margin-bottom: 15px;
 }
 
+.signup-form p {
+    color: peachpuff;
+}
+
 .enquire-button {
     font-size: 100%;
     color: peachpuff;
