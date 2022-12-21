@@ -517,7 +517,8 @@ footer p {
 @media screen and (max-width: 1136px) {
     #menu {
         clear: left;
-        width: auto;
+        width: 95%;
+        margin: auto;
     }
 
     #logo {
@@ -837,9 +838,10 @@ footer p {
         justify-content: space-between;
         display: flex;
         list-style-type: none;
-        width: 100%;
+        width: 95%;
         align-items: center;
         clear: left;
+        margin: auto;
     }
 
     .dropbtn {
