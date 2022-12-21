@@ -154,9 +154,9 @@ After this section there is an inspirational photo of the given destination, as 
 
 #### Enquire Now 
 
-The page features an other hero image that is about a beautiful sunset over the beach and ocean with its waves. Apart from inspirational and motivational reasons it also symbolises the final step. Tshat is to fill out the enquiry form to get a quote. 
+The page features an other hero image that is about a beautiful sunset over the beach and ocean with its waves. Apart from inspirational and motivational reasons it also symbolises the final step. That is to fill out the enquiry form to get a quote. 
 
-Then there is the enquiry form box, that I designed to be able to submit only when all boxes are filled out or selected. The submit button changes its colour after being pressed to give assurance to the customer.
+Then there is the enquiry form box, that I designed to be able to be submitted only when all boxes are filled out or selected and in the correct way. The submit button changes its colour after being pressed to give assurance to the customer.
 
 # Deployment
 
