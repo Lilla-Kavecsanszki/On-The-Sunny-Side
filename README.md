@@ -287,7 +287,7 @@ Confirm that footer code is identical on all html pages.
 
 Review all functionality and responsiveness on my mobile phone and tablet for all pages.
 
-## Testing User Stories
+## User Stories Testing 
 
 1. As a viewer to the website, I want to easily navigate the site, so I can find what I need efficiently.
    - Regardless of which page the viewer is on, they can easily find and use the navigation bar, while it also stays visible and on top of the screen even while scrolling.
