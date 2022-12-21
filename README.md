@@ -58,15 +58,14 @@ This website is:
 - The submit button on the enquiry form flags all information boxes that the customer might forgot to fill out before they 
   can send their full enquiry. 
 
-Client stories
+User stories
 
 1. As a viewer to the website, I want to easily navigate the site, so I can find what I need efficiently.
 2. As a potential new customer to the website, I want to see a gallery that shows what I could do or visit in 
    each destinations if I decide to travel there.
 3. As a potential new customer, I want to be able to receive prices for a trip that customed to my preferences, so I can   decide if it is within my budget or to my liking to order.
-4. As an interested customer, I want an easy to fill in enquiry form, so I can make contact with an agent and personalise my trip acording to my liking, interest and budget.
-5. As an interested observer and/or customer, I want to follow the agency on social media, so I can keep up with its latest news, excursions, existing customer stories etc.
-6. As a returning visitor to the website, who has already decided to contact the agency, I want to be able to find the request a quote page easily and contact details also for further information.
+4. As an interested observer and/or customer, I want to follow the agency on social media, so I can keep up with its latest news, excursions, existing customer stories etc.
+5. As a returning visitor to the website, who has already decided to contact the agency, I want to be able to find the request a quote page easily and contact details also for further information.
 
 # Accessibility
 
@@ -160,7 +159,6 @@ The page features an other hero image that is about a beautiful sunset over the 
 Then there is the enquiry form box, that I designed to be able to submit only when all boxes are filled out or selected. The submit button changes its colour after being pressed to give assurance to the customer.
 
 # Deployment
-
 
 The On The Sunny Side website is deployed using Github Pages, this was done by:
 
@@ -288,6 +286,27 @@ Repeat verification steps done for footer on Home page.
 Confirm that footer code is identical on all html pages.
 
 Review all functionality and responsiveness on my mobile phone and tablet for all pages.
+
+## Testing User Stories
+
+1. As a viewer to the website, I want to easily navigate the site, so I can find what I need efficiently.
+   - Regardless of which page the viewer is on, they can easily find and use the navigation bar, while it also stays visible and on top of the screen even while scrolling.
+   - The logo always leads back to the home page.
+
+2. As a potential new customer to the website, I want to see a gallery that shows what I could do or visit in 
+   each destinations if I decide to travel there.
+   - When the viewer clicks on each Destination pages, those will always start with an interactive gallery, positioned to be on top of the pages and the first content for those pages. 
+   - With the fixed navbar the opportunity, to navigate from one page to another, is always at the user's disposal. They can jump between the destination options easily at all times.
+
+3. As a potential new customer, I want to be able to receive prices for a trip that personalised to my preferences, so I can decide if it is within my budget or to my liking, interest to order.
+   - On the "Enquire Now" page there is an eye-catching enquiry form with very detailed information boxes, in order to be able to collect the most data needed for the more accurate quote. 
+
+4. As an interested observer and/or customer, I want to follow the agency on social media, so I can keep up with its latest news, excursions, existing customer stories etc.
+    - 4 social media icons can be found in the footer on every page of the website.
+
+5. As a returning visitor to the website, who has already decided to contact the agency, I want to be able to find the request a quote page easily and contact details also for further information.
+   - There is a clearly marked "Enquire Now" button in the navigation bar. There is also a "Contact" button with a telephone font next to it on the other side of the menu, creating a frame to other menu items. 
+
 
 ## Further testing
 
