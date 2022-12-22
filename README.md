@@ -149,28 +149,52 @@ A navigation bar that allows the customers to navigate to each of the main pages
 The page the viewer is currently on is displayed with a different background colour and an over and underline as well to show which page is active. Upon hovering over each of the navigation menu links they'll also be changing their backgrounds and will be over and underlined to show the viewer where they are clicking. 
 The navigation bar is responsive meaning that it decreases in size, as well as the menu section will also appear underneath the logo if viewed on smaller screen sizes. This is to streamline the appearance of the navigation bar and reduce clutter on tablet and mobile screens.
 
+![Navbar](readme-images/navbar.png "Navbar")
+
 A footer is displayed at the bottom of each page which displays the contact information of the business, Copyright information with a disclaimer and social media links to Twitter, Facebook, Instagram and Youtube for the viewers to be able to be get in contact with the business on more platforms.
+
+![Footer](readme-images/footer.png "Footer")
+
 
 #### Home
 
 The Home page features a hero image, that is very inviting as a dreamy beach photo. It has the header - navigation bar displayed as an overlay, that is also seethrough a little bit. The hero image also has a cover text on it with a motto text. This oval shape and text zooms out each time when the page loads. The purpose of these elements are to give a great first impression on arriving at the website, with an elegant and luxurious feel to it.
 
+![Hero image and cover-text](readme-images/hero-image-with-cover-text.png "Hero image and cover-text")
+
 After the hero image there is a marketing and explanetory text that tells the customers what the business do.
 
+![Our Passion](readme-images/our-passion.png "Our Passion")
+
 After this section there is an other photo inserted, featuring a camera, a beach bag, a book and shells for inspirational purposes. 
+
+![Second inspirational photo](readme-images/second-inspirational-photo.png "Second inspirational photo")
 
 #### Destinations pages
 
 The three Destinations pages; Morocco, Barbados and Dubai both contains a page title, stating which destination is the current page about.
+
+![Title](readme-images/title.png "Title")
+
 Next to the title, the pages features a gallery section to give information and idea to the potential customers about each destinations without overwhelming them at the same time. These galleries are organised into a 3D rotating carousel for desktop screens and into a more simple fade out carousel for smaller screens to be able to fit and therefore enjoy the photos on a smaller screen too, one by one.
 
+![3D carousel](readme-images/3d-carousel.png "3D carousel")
+
+![Fade-out carousel](readme-images/fade-out-carousel.png "Fade-out carousel")
+
 After this section there is an inspirational photo of the given destination, as well as an informative paragraph next to it. On smaller screens the paragraph will go underneath the picture.
+
+![Left side photo](readme-images/left-side-photo.png "Left side photo")
+
+![Informative paragraph](readme-images/informative-paragraph.png "Informative paragraph")
 
 #### Enquire Now 
 
 The page features an other hero image that is about a beautiful sunset over the beach and ocean with its waves. Apart from inspirational and motivational reasons it also symbolises the final step. That is to fill out the enquiry form to get a quote. 
 
 Then there is the enquiry form box, that I designed to be able to be submitted only when all boxes are filled out or selected and in the correct way. The submit button changes its colour after being pressed to give assurance to the customer.
+
+![Hero image with Enquiry form](readme-images/hero-image-with-enquiry-form.png "Hero image with Enquiry form")
 
 # Deployment
 
@@ -326,7 +350,9 @@ I asked friends and family to look at the site on their devices and report any i
 
 ## Bugs
 
-The dropdown menu issue on mobile screens when browsing with Safari I couldn't resolve unfortunately. It will be a future ambition to resolve this problem.
+I had an issue occured with the dropdown menu on **mobile screens** when browsing with **Safari**. The dropdown menu works, however the user need to press the button for a longer period of time in order to reveal the dropdown part. On every other browser the dropdown menu works perfectly as expected, also on desktop screens when using Safari. 
+
+I couldn't resolve the issue unfortunately. It will be a future ambition to resolve this problem.
 
 # Credits
 
