@@ -329,20 +329,32 @@ Review all functionality and responsiveness on my mobile phone and tablet for al
    - Regardless of which page the viewer is on, they can easily find and use the navigation bar, while it also stays visible and on top of the screen even while scrolling.
    - The logo always leads back to the home page.
 
+   ![Scrolling navbar with Logo](readme-images/scrolling_navbar_userstories.png "Scrolling navbar with Logo")
+
 2. As a potential new customer to the website, I want to see a gallery that shows what I could do or visit in 
    each destinations if I decide to travel there.
    - When the viewer clicks on each Destination pages, those will always start with an interactive gallery, positioned to be on top of the pages and the first content for those pages. 
    - With the fixed navbar the opportunity, to navigate from one page to another, is always at the user's disposal. They can jump between the destination options easily at all times.
 
+![3d gallery on top of the page](readme-images/3d_gallery_ontopofthepage_uerstories.png "3d gallery on top of the page")
+
+![fade-out gallery on top of the page](readme-images/fadeout_gallery_ontopofthepage_userstories.png "fade-out gallery on top of the page")
+
+
 3. As a potential new customer, I want to be able to receive prices for a trip that personalised to my preferences, so I can decide if it is within my budget or to my liking, interest to order.
    - On the "Enquire Now" page there is an eye-catching enquiry form with very detailed information boxes, in order to be able to collect the most data needed for the more accurate quote. 
+
+![Enquiry form](readme-images/enquiry_form.png "Enquiry form")
 
 4. As an interested observer and/or customer, I want to follow the agency on social media, so I can keep up with its latest news, excursions, existing customer stories etc.
     - 4 social media icons can be found in the footer on every page of the website.
 
+![Social Media Buttons](readme-images/socialmedia_buttons.png "Social Media Buttons")
+
 5. As a returning visitor to the website, who has already decided to contact the agency, I want to be able to find the request a quote page easily and contact details also for further information.
    - There is a clearly marked "Enquire Now" button in the navigation bar. There is also a "Contact" button with a telephone font next to it on the other side of the menu, creating a frame to other menu items. 
 
+![Scrolling Contact and Enquire Now buttons](readme-images/contact_enquire.png "Scrolling Contact and Enquire Now buttons")
 
 ## Further testing
 
