@@ -249,10 +249,6 @@ https://codepen.io/blueacornfed/pen/qdRddr  */
      r =  -----------
             tan(20º)
   
-  Here's a screenshot of me doing the calculations in JavaScript, right in the browser console!
-  
-  Math things: https://cl.ly/image/1t0j1V2Y2l2Z
-  
   So, `r` is (about) 412px long! This means we need to TRANSLATE the slides in the Z 3-dimensional plane by 412px. This should be done AFTER the rotateY transformation.
   */
 
@@ -575,7 +571,6 @@ footer p {
     }
 
     #left-side {
-        /* width: 100%; */
         margin-top: 50px;
         display: flex;
         align-items: center;
