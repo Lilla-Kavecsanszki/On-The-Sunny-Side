@@ -67,6 +67,20 @@ User stories
 4. As an interested observer and/or customer, I want to follow the agency on social media, so I can keep up with its latest news, excursions, existing customer stories etc.
 5. As a returning visitor to the website, who has already decided to contact the agency, I want to be able to find the request a quote page easily and contact details also for further information.
 
+# Wireframes
+
+Home page
+
+![Home page wireframe](readme-images/wireframe_homepage.png "Home page wireframe")
+
+Destinations page
+
+![Destinations page wireframe](readme-images/wireframe_destinationspages.png "Destinations page wireframe")
+
+Enquire Now page
+
+![Enquire Now page wireframe](readme-images/wireframe_enquirenowpage.png "Enquire Now page wireframe")
+
 # Accessibility
 
 
@@ -74,7 +88,7 @@ Accessibility has been a very important point for me while designing website.
 
 Lighthouse testing for desktop and mobile have scored 100% for accessibility on both.
 
-![Lighthouse](readme-images/accessibility_lighthouse_mobile%26desktop.png "Accessibility")
+![Lighthouse Accessibility](readme-images/accessibility_lighthouse_mobile%26desktop.png "Lighthouse Accessibility")
 
 I used [A11y](https://color.a11y.com) the Color Contrast Accessibility Validator which determined that no colour contrast issues were found on any of the pages.
 
