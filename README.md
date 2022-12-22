@@ -131,7 +131,7 @@ HTML, and CSS were used to complete this project.
 
 # Technologies Used
 
-
+- Microsoft Word was used to create the wireframes 
 - [Font Awesome](https://fontawesome.com/) was used for all icons on the pages
 - Github was used to store all files for this website
 - Gitpod was used to create and edit all original code
